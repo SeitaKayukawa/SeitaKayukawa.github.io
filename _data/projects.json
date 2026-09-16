@@ -1,0 +1,158 @@
+[
+  {
+    "id": "project-engage-workshop",
+    "publication_id": "pub-assets-2025-engage-workshop",
+    "url": "https://dl.acm.org/doi/10.1145/3663547.3746348",
+    "thumbnail": "/projects/other_papers/ASSETS2025_EngageWorkshop/ASSETS2025_EngageWorkshop_thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "ASSETS 2025"
+  },
+  {
+    "id": "project-beyond-omakase",
+    "publication_id": "pub-chi-2025-beyond-omakase",
+    "url": "/projects/CHI2025_BeyondOmakase/CHI2025_BeyondOmakase.html",
+    "thumbnail": "/projects/CHI2025_BeyondOmakase/image/CHI2025_BeyondOmakase-Thumbnail.png",
+    "image_opacity": 0.95,
+    "venue_label": "CHI 2025"
+  },
+  {
+    "id": "project-ai-suitcase-field-trials",
+    "publication_id": "pub-assets-2025-ai-suitcase-field-trials",
+    "url": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase.html",
+    "thumbnail": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_Thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "CHI 2025 Case Study"
+  },
+  {
+    "id": "project-snap-and-nav",
+    "publication_id": "pub-mobilehci-2024-snap-and-nav",
+    "url": "/projects/other_papers/MobileHCI2024_SnapAndNav/MobileHCI2024_SnapAndNav.html",
+    "thumbnail": "/projects/other_papers/MobileHCI2024_SnapAndNav/MobileHCI2024_SnapAndNav_thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "MobileHCI 2024",
+    "note": "(* - equal contribution)"
+  },
+  {
+    "id": "project-chitchatguide",
+    "publication_id": "pub-mobilehci-2024-chitchatguide",
+    "url": "/projects/other_papers/MobileHCI2024_ChitChatGuide/MobileHCI2024_ChitChatGuide.html",
+    "thumbnail": "/projects/other_papers/MobileHCI2024_ChitChatGuide/MobileHCI2024_ChitChatGuide_thumb.png",
+    "image_opacity": 1,
+    "venue_label": "MobileHCI 2024",
+    "note": "(* - equal contribution)"
+  },
+  {
+    "id": "project-direct-or-immersive",
+    "publication_id": "pub-w4a-2024-direct-or-immersive",
+    "url": "https://doi.org/10.1145/3677846.3677856",
+    "thumbnail": "/projects/other_papers/W4A2024_DirectOrImmersive/W4A2024_DirectOrImmersive_thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "W4A 2024"
+  },
+  {
+    "id": "project-touchpilot",
+    "publication_id": "pub-assets-2023-touchpilot",
+    "url": "https://xiyue-w.github.io/projects/TouchPilot/",
+    "thumbnail": "/projects/other_papers/ASSETS2023_TouchPilot/TouchPilot_thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "ASSETS 2023"
+  },
+  {
+    "id": "project-museum-tour",
+    "publication_id": "pub-chi-2023-museum-tour",
+    "url": "/projects/CHI2023_MuseumTour/CHI2023_MuseumTour.html",
+    "thumbnail": "/projects/CHI2023_MuseumTour/image/Miraikan-Tour-Thumbnail.png",
+    "image_opacity": 0.95,
+    "venue_label": "CHI 2023"
+  },
+  {
+    "id": "project-pathfinder",
+    "publication_id": "pub-chi-2023-pathfinder",
+    "url": "https://dl.acm.org/doi/10.1145/3544548.3580687",
+    "thumbnail": "/projects/other_papers/CHI2023_PathFinder/PathFinder_Thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "CHI 2023"
+  },
+  {
+    "id": "project-3d-movie-map",
+    "publication_id": "pub-chi-2023-3d-movie-map",
+    "url": "/projects/CHI2023_LBW_3DMovieMap/CHI2023_LBW_3DMovieMap.html",
+    "thumbnail": "/projects/CHI2023_LBW_3DMovieMap/images/3DMovieMap_thumbnail.png",
+    "image_opacity": 0.9,
+    "venue_label": "CHI EA 2023"
+  },
+  {
+    "id": "project-bento-museum",
+    "publication_id": "pub-assets-2022-bento-museum",
+    "url": "https://xiyue-w.github.io/projects/BentoMuseum/",
+    "thumbnail": "/projects/other_papers/ASSETS2022_BentoMuseum/BentoMuseum_thumb.png",
+    "image_opacity": 0.95,
+    "venue_label": "ASSETS 2022"
+  },
+  {
+    "id": "project-ai-suitcase-acceptance",
+    "publication_id": "pub-roman-2022-ai-suitcase-acceptance",
+    "url": "/projects/AI-Suitcase-Acceptance/",
+    "thumbnail": "/projects/AI-Suitcase-Acceptance/images/Acceptance_thumb.png",
+    "image_opacity": 0.99,
+    "venue_label": "IEEE RO-MAN 2022"
+  },
+  {
+    "id": "project-corridor-walker",
+    "publication_id": "pub-mobilehci-2022-corridor-walker",
+    "url": "https://sites.google.com/view/corridor-walkerproject/",
+    "thumbnail": "/projects/other_papers/MobileHCI'22_Corridor-Walker/Corridor-Walker_thumb.png",
+    "image_opacity": 0.99,
+    "venue_label": "MobileHCI 2022"
+  },
+  {
+    "id": "project-one-shot-wayfinding",
+    "publication_id": "pub-mobiquitous-2021-one-shot",
+    "url": "https://yutaroyamanaka.netlify.app/publication/oneshot/",
+    "thumbnail": "/projects/other_papers/MobiQuitous2021_Oneshot/MobiQuitous2021_Oneshot_thumb.png",
+    "image_opacity": 0.99,
+    "venue_label": "MobiQuitous 2021"
+  },
+  {
+    "id": "project-linechaser",
+    "publication_id": "pub-chi-2021-linechaser",
+    "url": "/projects/CHI2021_LineChaser/CHI2021_LineChaser.html",
+    "thumbnail": "/projects/CHI2021_LineChaser/image/CHI2021_LineChaser_thumb.png",
+    "image_opacity": 0.99,
+    "venue_label": "CHI 2021",
+    "note": "(* - equal contribution)"
+  },
+  {
+    "id": "project-pedestrian-guidance",
+    "publication_id": "pub-imwut-2020-pedestrian-guidance",
+    "url": "/projects/IMWUT2020/IMWUT2020.html",
+    "thumbnail": "/projects/IMWUT2020/image/IMWUT2020-Thumb.png",
+    "image_opacity": 0.88,
+    "venue_label": "PACM IMWUT, Vol. 4, Issue 3, 2020"
+  },
+  {
+    "id": "project-blindpilot",
+    "publication_id": "pub-chi-2020-blindpilot",
+    "url": "/projects/CHI2020_LBW_BlindPilot/CHI2020_LBW_BlindPilot.html",
+    "thumbnail": "/projects/CHI2020_LBW_BlindPilot/image/BlindPilot_thumb.png",
+    "image_opacity": 0.9,
+    "venue_label": "CHI EA 2020"
+  },
+  {
+    "id": "project-bbeep",
+    "publication_id": "pub-chi-2019-bbeep",
+    "url": "/projects/BBeep/BBeep.html",
+    "thumbnail": "/projects/BBeep/images/BBeep_thumb.png",
+    "image_opacity": 0.9,
+    "venue_label": "CHI 2019"
+  },
+  {
+    "id": "project-dynamic-object-scanning",
+    "publication_id": "pub-chi-2018-dynamic-object-scanning",
+    "url": "/projects/DO-Scanning/DO-Scanning.html",
+    "thumbnail": "/projects/DO-Scanning/images/DO-Scanning-Thumb.png",
+    "image_opacity": 0.9,
+    "venue_label": "CHI EA 2018",
+    "venue_wrapper": true
+  }
+]

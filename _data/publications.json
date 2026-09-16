@@ -1,0 +1,1134 @@
+{
+  "full": [
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "ASSETS 2025"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/10.1145/3663547.3746348"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "https://xiyue-w.github.io/assets/pdf/XWang_ASSETS25_EngageWorkshop.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/ASSETS2025_EngageWorkshop/ASSETS2025_EngageWorkshop_bibtex.html"
+        },
+        {
+          "kind": "award",
+          "label": "Honorable Mention Award"
+        }
+      ],
+      "id": "pub-assets-2025-engage-workshop",
+      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">Engaging Visually Impaired People in Science Museums Through an Immersive Workshop: Practices, Challenges, and Opportunities.</span>\n              <span>In <i>Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)</i></span>.",
+      "authors": "Xiyue Wang, Seita Kayukawa, Hironobu Takagi, and Chieko Asakawa.",
+      "title": "Engaging Visually Impaired People in Science Museums Through an Immersive Workshop: Practices, Challenges, and Opportunities.",
+      "year": 2023,
+      "venue": "In Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2025"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2025_BeyondOmakase/CHI2025_BeyondOmakase.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/10.1145/3706598.3714112"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/CHI2025_BeyondOmakase/talk_slide/CHI2025_BeyondOmakase_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2025_BeyondOmakase/paper/CHI2025_BeyondOmakase_paper.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2025_BeyondOmakase/CHI2025_BeyondOmakase_bibtex.html"
+        }
+      ],
+      "id": "pub-chi-2025-beyond-omakase",
+      "citation_html": "<span>Rie Kamikubo, <span class=\"body_en_bold\">Seita Kayukawa</span>, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2024.</span>\n              <span class=\"body_en_bold\">Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People.</span>\n              <span>In <i>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)</i></span>.",
+      "authors": "Rie Kamikubo, Seita Kayukawa, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.",
+      "title": "Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People.",
+      "year": 2024,
+      "venue": "In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "MobileHCI 2024"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/other_papers/MobileHCI2024_SnapAndNav/MobileHCI2024_SnapAndNav.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dx.doi.org/10.1145/3676522"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/other_papers/MobileHCI2024_SnapAndNav/SnapAndNav_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/MobileHCI2024_SnapAndNav/MobileHCI2024_SnapAndNav.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/MobileHCI2024_SnapAndNav/MobileHCI2024_SnapAndNav_BibTex.html"
+        }
+      ],
+      "id": "pub-mobilehci-2024-snap-and-nav",
+      "citation_html": "<span>Masaya Kubota*, Masaki Kuribayashi*, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).</span>\n              <span>2024.</span>\n              <span class=\"body_en_bold\">Snap&amp;Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection.</span>\n              <span>In <i>Proceedings of the 26th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '24)</i></span>.",
+      "authors": "Masaya Kubota*, Masaki Kuribayashi*, Seita Kayukawa, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).",
+      "title": "Snap&Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection.",
+      "year": 2024,
+      "venue": "In Proceedings of the 26th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '24)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "MobileHCI 2024"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/other_papers/MobileHCI2024_ChitChatGuide/MobileHCI2024_ChitChatGuide.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dx.doi.org/10.1145/3676492"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/other_papers/MobileHCI2024_ChitChatGuide/ChitChatGuide_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/MobileHCI2024_ChitChatGuide/MobileHCI2024_ChitChatGuide.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/MobileHCI2024_ChitChatGuide/MobileHCI2024_ChitChatGuide_BibTex.html"
+        }
+      ],
+      "id": "pub-mobilehci-2024-chitchatguide",
+      "citation_html": "<span>Yuka Kaniwa*, Masaki Kuribayashi*, <span class=\"body_en_bold\">Seita Kayukawa</span>, Daisuke Sato, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).</span>\n              <span>2024.</span>\n              <span class=\"body_en_bold\">ChitChatGuide: Conversational Interaction Using Large Language Models for Assisting People with Visual Impairments to Explore a Shopping Mall.</span>\n              <span>In <i>Proceedings of the 26th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '24)</i></span>.",
+      "authors": "Yuka Kaniwa*, Masaki Kuribayashi*, Seita Kayukawa, Daisuke Sato, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).",
+      "title": "ChitChatGuide: Conversational Interaction Using Large Language Models for Assisting People with Visual Impairments to Explore a Shopping Mall.",
+      "year": 2024,
+      "venue": "In Proceedings of the 26th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '24)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "W4A 2024"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3677846.3677856"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/W4A2024_DirectOrImmersive/W4A2024_DirectOrImmersive.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/W4A2024_DirectOrImmersive/W4A2024_DirectOrImmersive_bibtex.html"
+        },
+        {
+          "kind": "award",
+          "label": "Best Technical Paper Award",
+          "href": "http://www.w4a.info/2024/awards/"
+        }
+      ],
+      "id": "pub-w4a-2024-direct-or-immersive",
+      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, Giorgia Masoero, and Chieko Asakawa.</span>\n              <span>2024.</span>\n              <span class=\"body_en_bold\">Direct or Immersive? Comparing Smartphone-based Museum Guide Systems for Blind Visitors.</span>\n              <span>In <i>Proceedings of the 21st International Web for All Conference (W4A '24)</i></span>.",
+      "authors": "Xiyue Wang, Seita Kayukawa, Hironobu Takagi, Giorgia Masoero, and Chieko Asakawa.",
+      "title": "Direct or Immersive? Comparing Smartphone-based Museum Guide Systems for Blind Visitors.",
+      "year": 2024,
+      "venue": "In Proceedings of the 21st International Web for All Conference (W4A '24)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "ASSETS 2023"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://xiyue-w.github.io/projects/TouchPilot//"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3597638.3608426"
+        },
+        {
+          "kind": "slide",
+          "label": "Presentation Video",
+          "href": "https://youtu.be/81nCF6aJzRU"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/ASSETS2023_TouchPilot/ASSETS2023_TouchPilot.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/ASSETS2023_TouchPilot/ASSETS2023_TouchPilot_bibtex.html"
+        }
+      ],
+      "id": "pub-assets-2023-touchpilot",
+      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">TouchPilot: Designing a Guidance System that Assists Blind People in Learning Complex 3D Structures.</span>\n              <span>In <i>Proceedings of the 25th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '23)</i></span>.",
+      "authors": "Xiyue Wang, Seita Kayukawa, Hironobu Takagi, and Chieko Asakawa.",
+      "title": "TouchPilot: Designing a Guidance System that Assists Blind People in Learning Complex 3D Structures.",
+      "year": 2023,
+      "venue": "In Proceedings of the 25th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '23)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2023"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2023_MuseumTour/CHI2023_MuseumTour.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3544548.3581220"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/CHI2023_MuseumTour/talk_slide/CHI2023_Presentation_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2023_MuseumTour/paper/CHI'23_MuseumTour_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2023_MuseumTour/CHI2023_MuseumTour_bibtex.html"
+        }
+      ],
+      "id": "pub-chi-2023-museum-tour",
+      "citation_html": "<span>\n                <span class=\"body_en_bold\">Seita Kayukawa</span>, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">Enhancing Blind Visitor's Autonomy in a Science Museum Using an Autonomous Navigation Robot.</span>\n              <span>In <i>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)</i></span>.",
+      "authors": "Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "Enhancing Blind Visitor's Autonomy in a Science Museum Using an Autonomous Navigation Robot.",
+      "year": 2023,
+      "venue": "In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2023"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3544548.3580687"
+        },
+        {
+          "kind": "slide",
+          "label": "Presentation Video",
+          "href": "https://www.youtube.com/watch?v=8bXs0RFx_AA"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/CHI2023_PathFinder/CHI2023_PathFinder_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/CHI2023_PathFinder/CHI2023_PathFinder_bibtex.html"
+        }
+      ],
+      "id": "pub-chi-2023-pathfinder",
+      "citation_html": "<span>\n                Masaki Kuribayashi, Tatsuya Ishihara, Daisuke Sato, Jayakorn Vongkulbhisal, Karnik Ram, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings.</span>\n              <span>In <i>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)</i></span>.",
+      "authors": "Masaki Kuribayashi, Tatsuya Ishihara, Daisuke Sato, Jayakorn Vongkulbhisal, Karnik Ram, Seita Kayukawa, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings.",
+      "year": 2023,
+      "venue": "In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "ASSETS 2022"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://xiyue-w.github.io/projects/BentoMuseum/"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3517428.3544811"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/ASSETS2022_BentoMuseum/ASSETS2022_BentoMuseum.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/ASSETS2022_BentoMuseum/ASSETS2022_BentoMuseum_bibtex.html"
+        }
+      ],
+      "id": "pub-assets-2022-bento-museum",
+      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2022.</span>\n              <span class=\"body_en_bold\">BentoMuseum: 3D and Layered Interactive Museum Map for Blind Visitors.</span>\n              <span>In <i>Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '22)</i></span>.",
+      "authors": "Xiyue Wang, Seita Kayukawa, Hironobu Takagi, and Chieko Asakawa.",
+      "title": "BentoMuseum: 3D and Layered Interactive Museum Map for Blind Visitors.",
+      "year": 2022,
+      "venue": "In Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '22)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "IEEE RO-MAN 2022"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/AI-Suitcase-Acceptance/"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://ieeexplore.ieee.org/document/9900717/"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/AI-Suitcase-Acceptance/talk_slide/IEEE-ROMAN_Acceptance_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/AI-Suitcase-Acceptance/paper/IEEE_RO-MAN2022_HowUsers.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/AI-Suitcase-Acceptance/AI-Suitcase-Acceptance_Bibtex.html"
+        }
+      ],
+      "id": "pub-roman-2022-ai-suitcase-acceptance",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Akihiro Kosugi, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2022.</span>\n              <span class=\"body_en_bold\">How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings.</span>\n              <span>In <i>Proceedings of the 31st IEEE International Conference on Robot &amp; Human Interactive Communication (IEEE RO-MAN '22)</i></span>.",
+      "authors": "Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Akihiro Kosugi, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings.",
+      "year": 2022,
+      "venue": "In Proceedings of the 31st IEEE International Conference on Robot & Human Interactive Communication (IEEE RO-MAN '22)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "MobileHCI 2022"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://sites.google.com/view/corridor-walkerproject/"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dx.doi.org/10.1145/3546714"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/MobileHCI'22_Corridor-Walker/MobileHCI2022_CorridorWalker.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/MobileHCI'22_Corridor-Walker/MobieHCI2022_CorridorWalker_BibTex.html"
+        }
+      ],
+      "id": "pub-mobilehci-2022-corridor-walker",
+      "citation_html": "<span>Masaki Kuribayashi, <span class=\"body_en_bold\">Seita Kayukawa</span>, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, and Shigeo Morishima.</span>\n              <span>2022.</span>\n              <span class=\"body_en_bold\">Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections.</span>\n              <span>In <i>Proceedings of the 24th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '22)</i></span>.",
+      "authors": "Masaki Kuribayashi, Seita Kayukawa, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, and Shigeo Morishima.",
+      "title": "Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections.",
+      "year": 2022,
+      "venue": "In Proceedings of the 24th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '22)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "MobiQuitous 2021"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://yutaroyamanaka.netlify.app/publication/oneshot/"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://link.springer.com/chapter/10.1007/978-3-030-94822-1_9"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "https://drive.google.com/file/d/1C-A7fWju7T9AgQJP8suAU91_PCe0NImu/view"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/MobiQuitous2021_Oneshot/MobiQuitous2021_Oneshot_paper.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/MobiQuitous2021_Oneshot/MobiQuitous2021_Oneshot_bibtex.html"
+        },
+        {
+          "kind": "award",
+          "label": "Outstanding Student Paper Award"
+        }
+      ],
+      "id": "pub-mobiquitous-2021-one-shot",
+      "citation_html": "<span>Yutaro Yamanaka, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, Yuichi Nagaoka, Yoshimune Hiratsuka, and Satoshi Kurihara.</span>\n              <span>2021.</span>\n              <span class=\"body_en_bold\">One-Shot Wayfinding Method for Blind People via OCR and Arrow Analysis with a 360-degree Smartphone Camera.</span>\n              <span>In <i>Proceedings of the 18th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous '21)</i></span>.",
+      "authors": "Yutaro Yamanaka, Seita Kayukawa, Hironobu Takagi, Yuichi Nagaoka, Yoshimune Hiratsuka, and Satoshi Kurihara.",
+      "title": "One-Shot Wayfinding Method for Blind People via OCR and Arrow Analysis with a 360-degree Smartphone Camera.",
+      "year": 2021,
+      "venue": "In Proceedings of the 18th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous '21)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2021"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2021_LineChaser/CHI2021_LineChaser.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3411764.3445451"
+        },
+        {
+          "kind": "slide",
+          "label": "Presentation Video",
+          "href": "https://www.youtube.com/watch?v=HJTam8_Yisw"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2021_LineChaser/paper/CHI'21-LineChaser_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2021_LineChaser/CHI2021_LineChaser_BibTex.html"
+        },
+        {
+          "kind": "award",
+          "label": "Azusa Ono Memorial Award",
+          "href": "https://www.waseda.jp/inst/student/assets/uploads/2021/03/202103onoazusa.pdf"
+        }
+      ],
+      "id": "pub-chi-2021-linechaser",
+      "citation_html": "<span>\n                Masaki Kuribayashi*, <span class=\"body_en_bold\">Seita Kayukawa</span>*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).</span>\n              <span>2021.</span>\n              <span class=\"body_en_bold\">LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line.</span>\n              <span>In <i>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21)</i></span>.",
+      "authors": "Masaki Kuribayashi*, Seita Kayukawa*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).",
+      "title": "LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line.",
+      "year": 2021,
+      "venue": "In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "PACM IMWUT, Vol. 4, Issue 3, 2020"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/IMWUT2020/IMWUT2020.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://doi.org/10.1145/3411825"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/IMWUT2020/paper/IMWUT4_3_85_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/IMWUT2020/IMWUT_BibTeX.html"
+        }
+      ],
+      "id": "pub-imwut-2020-pedestrian-guidance",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2020.</span>\n              <span class=\"body_en_bold\">Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians.</span>\n              <span>In <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</i></span>, 4, 3, Article 85 (September 2020), 22 pages.",
+      "authors": "Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians.",
+      "year": 2020,
+      "venue": "In Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2019"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/BBeep/BBeep.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/citation.cfm?doid=3290605.3300282"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/BBeep/talk_slide/CHI2019_talk_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/BBeep/paper/CHI'19_BBeep_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/BBeep/BBeep_BibTex.html"
+        },
+        {
+          "kind": "award",
+          "label": "Azusa Ono Memorial Award",
+          "href": "https://www.waseda.jp/inst/student/assets/uploads/2020/09/2018_onoazusa.pdf"
+        }
+      ],
+      "id": "pub-chi-2019-bbeep",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Keita Higuchi, João Guerreiro, Shigeo Morishima, Yoichi Sato, Kris Kitani, and Chieko Asakawa.</span>\n              <span>2019.</span>\n              <span class=\"body_en_bold\">BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.</span>\n              <span>In <i>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19)</i></span>.",
+      "authors": "Seita Kayukawa, Keita Higuchi, João Guerreiro, Shigeo Morishima, Yoichi Sato, Kris Kitani, and Chieko Asakawa.",
+      "title": "BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.",
+      "year": 2019,
+      "venue": "In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19)"
+    }
+  ],
+  "selected": [
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2025 Case Study"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/10.1145/3706599.3706663"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_paper.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/CHI2025_CaseStudy_AISuitcase/CHI2025_CaseStudy_AISuitcase_BibTex.html"
+        }
+      ],
+      "id": "pub-assets-2025-ai-suitcase-field-trials",
+      "citation_html": "<span>Hironobu Takagi, Kakuya Naito, Daisuke Sato, Masayuki Murata, <span class=\"body_en_bold\">Seita Kayukawa</span>, and Chieko Asakawa.</span>\n              <span>2025.</span>\n              <span class=\"body_en_bold\">Field Trials of Autonomous Navigation Robot for Visually Impaired People.</span>\n              <span><i>Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25 Case Study)</i></span>.",
+      "authors": "Hironobu Takagi, Kakuya Naito, Daisuke Sato, Masayuki Murata, Seita Kayukawa, and Chieko Asakawa.",
+      "title": "Field Trials of Autonomous Navigation Robot for Visually Impaired People.",
+      "year": 2025,
+      "venue": "Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25 Case Study)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2023 LBW"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2023_LBW_3DMovieMap/CHI2023_LBW_3DMovieMap.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/10.1145/3544549.3585885"
+        },
+        {
+          "kind": "slide",
+          "label": "Poster",
+          "href": "/projects/CHI2023_LBW_3DMovieMap/paper/CHI2023_3DMovieMap_Poster.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2023_LBW_3DMovieMap/paper/CHI2023_3DMovieMap_Preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2023_LBW_3DMovieMap/CHI2023_LBW_3DMovieMap_BibTex.html"
+        }
+      ],
+      "id": "pub-chi-2023-3d-movie-map",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Keita Higuchi, Shigeo Morishima, and Ken Sakurada.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">3DMovieMap: An Interactive Route Viewer for Multi-Level Buildings.</span>\n              <span><i>Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23)</i></span>.",
+      "authors": "Seita Kayukawa, Keita Higuchi, Shigeo Morishima, and Ken Sakurada.",
+      "title": "3DMovieMap: An Interactive Route Viewer for Multi-Level Buildings.",
+      "year": 2023,
+      "venue": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2020 LBW"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2020_LBW_BlindPilot/CHI2020_LBW_BlindPilot.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/abs/10.1145/3334480.3382925"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2020_LBW_BlindPilot/paper/CHI'20-LBW-BlindPilot_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2020_LBW_BlindPilot/CHI2020_LBW_BlindPilot_BibTex.html"
+        }
+      ],
+      "id": "pub-chi-2020-blindpilot",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2020.</span>\n              <span class=\"body_en_bold\">BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object.</span>\n              <span><i>Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20)</i></span>.",
+      "authors": "Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object.",
+      "year": 2020,
+      "venue": "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2018 LBW and Demo"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/DO-Scanning/DO-Scanning.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI (LBW)",
+          "href": "https://dl.acm.org/citation.cfm?doid=3170427.3189085"
+        },
+        {
+          "kind": "link",
+          "label": "DOI (Demo)",
+          "href": "https://dl.acm.org/citation.cfm?doid=3170427.3186501"
+        },
+        {
+          "kind": "slide",
+          "label": "Poster",
+          "href": "/projects/DO-Scanning/CHI'18_DOScanning_Poster.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper (LBW)",
+          "href": "/projects/DO-Scanning/paper/CHI'18-LBW-Dynamic_Object_Scanning_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/DO-Scanning/DO-Scanning_BibTex.html"
+        }
+      ],
+      "id": "pub-chi-2018-dynamic-object-scanning",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Keita Higuchi, Ryo Yonetani, Masanori Nakamura, Yoichi Sato, and Shigeo Morishima.</span>\n              <span>2018.</span>\n              <span class=\"body_en_bold\">Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos.</span>\n              <span>In <i>Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18)</i></span>.",
+      "authors": "Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Masanori Nakamura, Yoichi Sato, and Shigeo Morishima.",
+      "title": "Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos.",
+      "year": 2018,
+      "venue": "In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18)"
+    }
+  ],
+  "other_international": [
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "MobiQuitous 2021 Poster"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://sites.google.com/view/corridor-walkerproject/"
+        },
+        {
+          "kind": "slide",
+          "label": "Poster",
+          "href": "/projects/other_papers/MobiQuitous2021_Corridor-Walker/MobiQuitous2021_Corridor-Walker_poster.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/MobiQuitous2021_Corridor-Walker/MobiQuitous2021_Corridor-Walker_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/MobiQuitous2021_Corridor-Walker/MobiQuitous2021_Corridor-Walker_bibtex.html"
+        }
+      ],
+      "id": "pub-mobiquitous-2021-corridor-walker",
+      "citation_html": "Masaki Kuribayashi, <span><span class=\"body_en_bold\">Seita Kayukawa</span>, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, and Shigeo Morishima.</span>\n              <span>2021.</span>\n              <span class=\"body_en_bold\">Designing a Smartphone-Based Assistance System for Blind People to Recognize Intersections and Obstacles in Indoor Corridors.</span>\n              <span><i>Proceedings of the 18th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous '21 Poster)</i></span>.",
+      "authors": "Masaki Kuribayashi, Seita Kayukawa, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, and Shigeo Morishima.",
+      "title": "Designing a Smartphone-Based Assistance System for Blind People to Recognize Intersections and Obstacles in Indoor Corridors.",
+      "year": 2021,
+      "venue": "Proceedings of the 18th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous '21 Poster)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CHI 2020 LBW"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2020_LBW_Line/CHI2020_LBW_Line.html"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/abs/10.1145/3334480.3382954"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/CHI2020_LBW_Line/paper/CHI'20-LBW-Line_preprint.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/CHI2020_LBW_Line/CHI2020_LBW_Line_BibTex.html"
+        }
+      ],
+      "id": "pub-chi-2020-linechaser-lbw",
+      "citation_html": "<span><span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa.</span>\n              <span>2020.</span>\n              <span class=\"body_en_bold\">Smartphone-Based Assistance for Blind People to Stand in Lines.</span>\n              <span><i>Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20)</i></span>.",
+      "authors": "Seita Kayukawa, Hironobu Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa.",
+      "title": "Smartphone-Based Assistance for Blind People to Stand in Lines.",
+      "year": 2020,
+      "venue": "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA '20)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "IEEE VR 2019 Poster"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://ieeexplore.ieee.org/document/8797960"
+        },
+        {
+          "kind": "slide",
+          "label": "Poster",
+          "href": "/projects/other_papers/IEEE_VR_2019/IEEEVR2019_poster.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/IEEE_VR_2019/IEEE_VR'19_Poster_Burden_and_Body_Ownership.pdf"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/IEEE_VR_2019/IEEE_VR'19_Poster_BibTex.html"
+        }
+      ],
+      "id": "pub-ieee-vr-2019-virtual-slope",
+      "citation_html": "<span>Ryo Shimamura, <span class=\"body_en_bold\">Seita Kayukawa</span>, Takayuki Nakatsuka, Shoki Miyagawa, and Shigeo Morishima.</span>\n              <span>2019.</span>\n              <span class=\"body_en_bold\">A Study on the Sense of Burden and Body Ownership on Virtual Slope.</span>\n              <span>In <i>Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR '19)</i></span>.",
+      "authors": "Ryo Shimamura, Seita Kayukawa, Takayuki Nakatsuka, Shoki Miyagawa, and Shigeo Morishima.",
+      "title": "A Study on the Sense of Burden and Body Ownership on Virtual Slope.",
+      "year": 2019,
+      "venue": "In Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR '19)"
+    }
+  ],
+  "other_domestic": [
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "WISS 2021",
+          "href": "https://www.wiss.org/WISS2021/program.html"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://sites.google.com/view/corridor-walkerproject/"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "https://drive.google.com/file/d/1HeyENzfziIm1afn9sLLlrEUAav-EuduI/view?usp=sharing"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "https://www.wiss.org/WISS2021Proceedings/data/15.pdf"
+        }
+      ],
+      "id": "pub-wiss-2021-corridor-walker-ja",
+      "citation_html": "<span>栗林雅希, <strong>粥川青汰</strong>, <span class=\"body_en\">Jayakorn Vongkulbhisal</span>, 浅川智恵子, 佐藤大介, 髙木啓伸, 森島繁生.</span>\n              <span><span class=\"body_en_bold\">Corridor-Walker: </span><strong>視覚障害者が障害物を回避し交差点を認識するためのスマートフォン型屋内歩行支援システム</strong>.</span>\n              <span><i>インタラクティブシステムとソフトウェアに関するワークショップ (<span class=\"body_en\">WISS</span>)</i></span>.\n              <span class=\"body_en\">2021</span>. (査読あり, 口頭発表)",
+      "authors": "栗林雅希, 粥川青汰, Jayakorn Vongkulbhisal, 浅川智恵子, 佐藤大介, 髙木啓伸, 森島繁生.",
+      "title": "Corridor-Walker: 視覚障害者が障害物を回避し交差点を認識するためのスマートフォン型屋内歩行支援システム.",
+      "year": 2021,
+      "venue": "インタラクティブシステムとソフトウェアに関するワークショップ (WISS)"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "WISS 2020",
+          "href": "https://www.wiss.org/WISS2020/program.html"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/CHI2021_LineChaser/CHI2021_LineChaser.html"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "https://drive.google.com/file/d/11ZxO1vMS9hXGGohz5xJ_GxBN3K7y1A-I/view"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "https://www.wiss.org/WISS2020Proceedings/data/01.pdf"
+        },
+        {
+          "kind": "award",
+          "label": "最優秀論文賞",
+          "label_html": "<strong>最優秀論文賞</strong>",
+          "href": "https://www.wiss.org/WISS2020/award.html"
+        }
+      ],
+      "id": "pub-wiss-2020-linechaser-ja",
+      "citation_html": "<span>栗林雅希<span class=\"body_en\">*</span>, <strong>粥川青汰</strong><span class=\"body_en\">*</span>, 髙木啓伸, 浅川智恵子, 森島繁生 <span class=\"body_en\">(* - equal contribution)</span>.</span>\n              <span><span class=\"body_en_bold\">LineChaser: </span><strong>視覚障碍者が列に並ぶためのスマートフォン型支援システム</strong>.</span>\n              <span><i>インタラクティブシステムとソフトウェアに関するワークショップ (<span class=\"body_en\">WISS</span>)</i></span>.\n              <span class=\"body_en\">2020</span>. (査読あり, 口頭発表)",
+      "authors": "栗林雅希*, 粥川青汰*, 髙木啓伸, 浅川智恵子, 森島繁生 (* - equal contribution).",
+      "title": "LineChaser: 視覚障碍者が列に並ぶためのスマートフォン型支援システム.",
+      "year": 2020,
+      "venue": "インタラクティブシステムとソフトウェアに関するワークショップ (WISS)"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "WISS 2020",
+          "href": "https://www.wiss.org/WISS2020/program.html"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "https://yutaroyamanaka.netlify.app/publication/oneshot/"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "https://yutaroyamanaka.github.io/data/slides/WISS2020/main.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "https://www.wiss.org/WISS2020Proceedings/data/02.pdf"
+        }
+      ],
+      "id": "pub-wiss-2020-one-shot-ja",
+      "citation_html": "<span>山中優太朗, <strong>粥川青汰</strong>, 髙木啓伸, 長岡雄一, 平塚義宗, 栗原聡.</span>\n              <span><span class=\"body_en_bold\">One-Shot Wayfinding System: 360</span><strong>度スマートフォンカメラと矢印分析を用いた視覚障碍者のための公共施設における方向決定支援システム</strong>.</span>\n              <span><i>インタラクティブシステムとソフトウェアに関するワークショップ (<span class=\"body_en\">WISS</span>)</i></span>.\n              <span class=\"body_en\">2020</span>. (査読あり, 口頭発表)",
+      "authors": "山中優太朗, 粥川青汰, 髙木啓伸, 長岡雄一, 平塚義宗, 栗原聡.",
+      "title": "One-Shot Wayfinding System: 360度スマートフォンカメラと矢印分析を用いた視覚障碍者のための公共施設における方向決定支援システム.",
+      "year": 2020,
+      "venue": "インタラクティブシステムとソフトウェアに関するワークショップ (WISS)"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "インタラクション2020",
+          "label_html": "<strong>インタラクション</strong>2020",
+          "href": "https://www.interaction-ipsj.org/2020/program/"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/IMWUT2020/IMWUT2020.html"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/IMWUT2020/talk_slide/interaction2020_talk_slide_compressed.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/IMWUT2020/paper/Interaction2020_CameraReady.pdf"
+        }
+      ],
+      "id": "pub-interaction-2020-pedestrian-guidance",
+      "citation_html": "<span><strong>粥川青汰</strong>, 石原辰也, 髙木啓伸, 森島繁生, 浅川智恵子.</span>\n              <span><strong>歩行者の動きの解析と衝突予測に基づく公共空間における視覚障害者向け歩行支援システム</strong>.</span>\n              <span><i>インタラクション</i></span>.\n              <span class=\"body_en\">2020</span>. (査読あり, 口頭発表)",
+      "authors": "粥川青汰, 石原辰也, 髙木啓伸, 森島繁生, 浅川智恵子.",
+      "title": "歩行者の動きの解析と衝突予測に基づく公共空間における視覚障害者向け歩行支援システム.",
+      "year": 2020,
+      "venue": "インタラクション"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "WISS 2019",
+          "href": "https://www.wiss.org/WISS2019/demo-poster"
+        }
+      ],
+      "id": "pub-wiss-2019-route-video",
+      "citation_html": "<span><strong>粥川青汰</strong>, 樋口啓太, 森島繁生, 櫻田健.</span>\n              <span><strong><span class=\"body_en_bold\">360</span>度映像とユーザ入力を用いた任意経路に対するナビゲーション映像生成手法</strong>.</span>\n              <span><i>インタラクティブシステムとソフトウェアに関するワークショップ (<span class=\"body_en\">WISS</span>)</i></span>.\n              <span class=\"body_en\">2019</span>. (査読なし, デモ発表)",
+      "authors": "粥川青汰, 樋口啓太, 森島繁生, 櫻田健.",
+      "title": "360度映像とユーザ入力を用いた任意経路に対するナビゲーション映像生成手法.",
+      "year": 2019,
+      "venue": "インタラクティブシステムとソフトウェアに関するワークショップ (WISS)"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "インタラクション2019",
+          "label_html": "<strong>インタラクション</strong>2019",
+          "href": "https://www.interaction-ipsj.org/2019/program/"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/BBeep/BBeep.html"
+        },
+        {
+          "kind": "slide",
+          "label": "Talk Slide",
+          "href": "/projects/BBeep/talk_slide/インタラクション2019_talk_slide.pdf"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/BBeep/paper/Interaction'19_preprint.pdf"
+        },
+        {
+          "kind": "award",
+          "label": "最優秀論文賞",
+          "label_html": "<strong>最優秀論文賞</strong>",
+          "href": "http://www.interaction-ipsj.org/2019/award/"
+        },
+        {
+          "kind": "award",
+          "label": "山下記念研究賞",
+          "label_html": "<strong>山下記念研究賞</strong>",
+          "href": "https://www.ipsj.or.jp/award/yamasita2019-detail.html#hci"
+        }
+      ],
+      "id": "pub-interaction-2019-bbeep",
+      "citation_html": "<span><strong>粥川青汰</strong>, 樋口啓太, <span class=\"body_en\">João Guerreiro</span>, 森島繁生, 佐藤洋一, <span class=\"body_en\">Kris Kitani</span>, 浅川智恵子.</span>\n              <span><span class=\"body_en_bold\">BBeep: </span><strong>歩行者との衝突予測に基づく警告音を用いた視覚障害者のための衝突回避支援システム</strong>.</span>\n              <span><i>インタラクション</i></span>.\n              <span class=\"body_en\">2019</span>. (査読あり, 口頭発表)",
+      "authors": "粥川青汰, 樋口啓太, João Guerreiro, 森島繁生, 佐藤洋一, Kris Kitani, 浅川智恵子.",
+      "title": "BBeep: 歩行者との衝突予測に基づく警告音を用いた視覚障害者のための衝突回避支援システム.",
+      "year": 2019,
+      "venue": "インタラクション"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "インタラクション2019",
+          "label_html": "<strong>インタラクション</strong>2019",
+          "href": "https://www.interaction-ipsj.org/2019/program/"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/other_papers/IEEE_VR_2019/interaction'19_shimamura.pdf"
+        }
+      ],
+      "id": "pub-interaction-2019-virtual-slope",
+      "citation_html": "<span>島村僚, <strong>粥川青汰</strong>, 中塚貴之, 宮川翔貴, 森島繁生.</span>\n              <span><strong>VRにおける仮想的な坂道昇降動作と視覚操作に対するユーザ評価</strong>.</span>\n              <span><i>インタラクション</i></span>.\n              <span class=\"body_en\">2019</span>. (査読あり, ポスター発表)",
+      "authors": "島村僚, 粥川青汰, 中塚貴之, 宮川翔貴, 森島繁生.",
+      "title": "VRにおける仮想的な坂道昇降動作と視覚操作に対するユーザ評価.",
+      "year": 2019,
+      "venue": "インタラクション"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "VC Workshop 2018",
+          "href": "http://cgresearch.dwango.co.jp/vcws2018/program.html"
+        }
+      ],
+      "id": "pub-vc-workshop-2018-virtual-slope",
+      "citation_html": "<span>島村僚, <strong>粥川青汰</strong>, 中塚貴之, 宮川翔貴, 森島繁生.</span>\n              <span><strong>VRによる視覚操作を用いた仮想勾配昇降時の知覚調査</strong>.</span>\n              <span><i>画像電子学会ビジュアルコンピューティングワークショップ</i></span>.\n              <span class=\"body_en\">2018</span>. (査読なし, 口頭発表)",
+      "authors": "島村僚, 粥川青汰, 中塚貴之, 宮川翔貴, 森島繁生.",
+      "title": "VRによる視覚操作を用いた仮想勾配昇降時の知覚調査.",
+      "year": 2018,
+      "venue": "画像電子学会ビジュアルコンピューティングワークショップ"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "WISS 2017",
+          "href": "https://www.wiss.org/WISS2017Proceedings/"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/DO-Scanning/DO-Scanning.html"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "/projects/DO-Scanning/paper/WISS'18_一人称視点映像の高速閲覧に有効なキューの自動生成手法.pdf"
+        }
+      ],
+      "id": "pub-wiss-2017-video-cues",
+      "citation_html": "<span><strong>粥川青汰</strong>, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.</span>\n              <span><strong>一人称視点映像の高速閲覧に有効なキューの自動生成手法</strong>.</span>\n              <span><i>インタラクティブシステムとソフトウェアに関するワークショップ (<span class=\"body_en\">WISS</span>)</i></span>.\n              <span class=\"body_en\">2017</span>. (査読あり, 口頭発表)",
+      "authors": "粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.",
+      "title": "一人称視点映像の高速閲覧に有効なキューの自動生成手法.",
+      "year": 2017,
+      "venue": "インタラクティブシステムとソフトウェアに関するワークショップ (WISS)"
+    },
+    {
+      "language": "ja",
+      "resources": [
+        {
+          "kind": "conf",
+          "label": "CVIM 2017",
+          "href": "http://cvim.ipsj.or.jp/index.php?id=cvim209p"
+        },
+        {
+          "kind": "projectpage",
+          "label": "Project Page",
+          "href": "/projects/DO-Scanning/DO-Scanning.html"
+        }
+      ],
+      "id": "pub-interaction-2017-object-video-browsing",
+      "citation_html": "<span><strong>粥川青汰</strong>, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.</span>\n              <span><strong>物体検出とユーザ入力に基づく一人称視点映像の高速閲覧手法</strong>.</span>\n              <span><i>情報処理学会コンピュータビジョンとイメージメディア研究会 (<span class=\"body_en\">CVIM</span>)</i></span>.\n              <span class=\"body_en\">2017</span>. (査読なし, 口頭発表)",
+      "authors": "粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.",
+      "title": "物体検出とユーザ入力に基づく一人称視点映像の高速閲覧手法.",
+      "year": 2017,
+      "venue": "情報処理学会コンピュータビジョンとイメージメディア研究会 (CVIM)"
+    }
+  ]
+}

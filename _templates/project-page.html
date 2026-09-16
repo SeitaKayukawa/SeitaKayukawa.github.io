@@ -1,0 +1,40 @@
+---
+title: "Project title"
+description: "One-sentence project description."
+lang: en
+stylesheet: /projects/style.css
+og_image: /projects/PROJECT_SLUG/images/thumbnail.png
+hero_image: /projects/PROJECT_SLUG/images/background.png
+authors: "Author One, Author Two"
+last_updated: "YYYY.M.D"
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+  {% include head.html %}
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        {% include navigation.html %}
+
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+          <div class="project_hero"{% if page.hero_image %} style="background-image: url('{{ page.hero_image | relative_url }}');"{% endif %}>
+            <div class="project_hero_content">
+              <h1 class="project_title">{{ page.title | escape }}</h1>
+              <div class="project_authors">{{ page.authors | escape }}</div>
+            </div>
+          </div>
+
+          <div class="project_index" style="text-align:center">Abstract</div>
+          <div class="abstract">
+            Project abstract.
+          </div>
+
+          {% include footer.html %}
+        </main>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

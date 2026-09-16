@@ -1,0 +1,9 @@
+{
+  "conf": { "icon": "/img/icon/conf_icon.png", "height": 14 },
+  "projectpage": { "icon": "/img/icon/projectpage.png", "height": 14 },
+  "link": { "icon": "/img/icon/link_icon.png", "height": 13 },
+  "slide": { "icon": "/img/icon/slide.png", "height": 14 },
+  "pdf": { "icon": "/img/icon/paper_pdf.png", "height": 14 },
+  "bibtex": { "icon": "/img/icon/BibTex_icon.png", "height": 14 },
+  "award": { "icon": "/img/icon/trophy.png", "height": 13 }
+}

@@ -3,3 +3,10 @@
 *.docx
 *ai
 *.idlk
+
+# Local Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/

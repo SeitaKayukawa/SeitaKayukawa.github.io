@@ -1,0 +1,14 @@
+title: Seita Kayukawa
+description: Research profile, projects, and publications of Seita Kayukawa.
+url: https://wotipati.github.io
+baseurl: ""
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - vendor

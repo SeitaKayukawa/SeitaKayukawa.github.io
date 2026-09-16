@@ -1,0 +1,87 @@
+{% if page.is_home %}
+  {% assign profile_href = '#profile' %}
+  {% assign projects_href = '#projects' %}
+  {% assign publications_href = '#publication' %}
+  {% assign contact_href = '#contact' %}
+{% else %}
+  {% assign profile_href = '/index.html#profile' | relative_url %}
+  {% assign projects_href = '/index.html#projects' | relative_url %}
+  {% assign publications_href = '/index.html#publication' | relative_url %}
+  {% assign contact_href = '/index.html#contact' | relative_url %}
+{% endif %}
+
+<nav class="navbar hidden-md-up navbar-light bg-light" aria-label="Mobile navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="hamburger_menu">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+      <li class="sidebar__contents">
+        <a href="{{ profile_href }}">{{ page.mobile_profile_label | default: 'Profile' }}</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ projects_href }}">Projects</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ publications_href }}">Publications</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ '/resume/Resume_Seita_Kayukawa.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Resume/CV</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ contact_href }}">Contact</a>
+      </li>
+      <li class="sidebar__contents">
+        <span class="sidebar__icon">
+          <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&amp;hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile"><img src="{{ '/img/icon/google_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+        <span class="sidebar__icon">
+          <a href="https://www.facebook.com/profile.php?id=100009598263382" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><img src="{{ '/img/icon/f_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+        <span class="sidebar__icon">
+          <a href="https://twitter.com/_wotipati_" target="_blank" rel="noopener noreferrer" aria-label="X profile"><img src="{{ '/img/icon/twitter_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+        <span class="sidebar__icon">
+          <a href="https://github.com/Wotipati" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><img src="{{ '/img/icon/github_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<nav class="col-lg-3 col-md-3 hidden-sm-down sidebar mx-auto" aria-label="Primary navigation">
+  <div class="float-right pr-lg-5">
+    <ul class="nav nav-pills flex-column">
+      <li class="sidebar__name">
+        <a href="{{ profile_href }}">Seita Kayukawa</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ profile_href }}">Profile</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ projects_href }}">Projects</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ publications_href }}">Publications</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ '/resume/Resume_Seita_Kayukawa.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Resume/CV</a>
+      </li>
+      <li class="sidebar__contents">
+        <a href="{{ contact_href }}">Contact</a>
+      </li>
+      <li class="sidebar__icons">
+        <span class="sidebar__icon">
+          <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&amp;hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile"><img src="{{ '/img/icon/google_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+        <span class="sidebar__icon">
+          <a href="https://twitter.com/_wotipati_" target="_blank" rel="noopener noreferrer" aria-label="X profile"><img src="{{ '/img/icon/twitter_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+        <span class="sidebar__icon">
+          <a href="https://github.com/Wotipati" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><img src="{{ '/img/icon/github_icon.png' | relative_url }}" alt="" width="22"></a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,18 @@
+{% assign resource = include.resource %}
+{% assign resource_type = site.data.resource_types[resource.kind] %}
+{% assign has_scheme = false %}
+{% if resource.href contains ':' %}{% assign has_scheme = true %}{% endif %}
+{% assign is_external = false %}
+{% if resource.external == true %}
+  {% assign is_external = true %}
+{% elsif resource.external != false and resource.href contains '://' %}
+  {% assign is_external = true %}
+{% endif %}
+{% if resource.href %}
+<a href="{% if has_scheme %}{{ resource.href }}{% else %}{{ resource.href | relative_url }}{% endif %}" class="label {{ resource.kind }}{% unless resource.kind == 'award' %} linked{% endunless %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+{% else %}
+<span class="label {{ resource.kind }}">
+{% endif %}
+  <span class="label_icon"><img src="{{ resource_type.icon | relative_url }}" alt="" height="{{ resource_type.height }}"></span>
+  <span class="label_contents">{% if resource.label_html %}{{ resource.label_html }}{% else %}{{ resource.label | escape }}{% endif %}</span>
+{% if resource.href %}</a>{% else %}</span>{% endif %}

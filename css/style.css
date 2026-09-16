@@ -142,6 +142,11 @@ a:hover{
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
+.project_note{
+  margin-left: 1.0rem;
+  font-size: 0.75rem;
+  padding-top: 0.25rem;
+}
 .project_line{
   border-top: solid 1px #435561;
   opacity: 0.25;
@@ -168,7 +173,6 @@ a:hover{
   vertical-align: middle;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
-  background-color: none;
   background-image: none;
   padding: 0.1033em .633em;
   border: 1px solid #4267B2;
@@ -176,7 +180,6 @@ a:hover{
   text-transform: none;
   font-weight: 500;
   font-size: 0.75rem;
-  border: 1 solid transparent;
   border-radius: .26666667rem;
 }
 
@@ -186,7 +189,6 @@ a:hover{
   margin-top: 0.5rem;
   margin-left: 0.1rem;
   margin-right: 0.3rem;
-  background-color: none;
   background-image: none;
   padding: 0.1833em .533em;
   border: 1px solid;
@@ -283,7 +285,7 @@ a:hover{
   font-size: 0.9rem;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
-  font-style: nomal;
+  font-style: normal;
   line-height: 1.5em;
   margin-right: 1.2rem;
 }

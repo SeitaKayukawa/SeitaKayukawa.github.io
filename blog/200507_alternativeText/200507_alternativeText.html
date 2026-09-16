@@ -1,134 +1,20 @@
+---
+title: "論文の図の代替テキストの書き方"
+description: "論文の図の代替テキストの書き方"
+lang: en
+stylesheet: /blog/style.css
+typekit_id: qiw1oyw
+og_image: "/blog/200507_alternativeText/200507_alternativeText_thumbnail_summary.png"
+last_updated: "2020.10.12"
+---
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Seita Kayukawa's Web Page">
-    <title>
-      論文の図の代替テキストの書き方
-    </title>
-    <meta property="og:site_name" content="論文の図の代替テキストの書き方" />
-    <meta property="og:title" content="論文の図の代替テキストの書き方" />
-    <meta property="og:type" content="article" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@_wotipati_" />
-    <meta property="og:url" content="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText.html" />
-    <meta property="og:image" content="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText_thumbnail_summary.png" />
-    <meta property="og:description" content="">
-
-    <link rel="shortcut icon" href="../../img/icon/web_icon.ico" >
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/normalize.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../../css/sidebar.css" >
-
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
-    <link hreflang="ja" href="https://Wotipati.github.io/jp/">
-    <link hreflang="en" href="https://Wotipati.github.io/">
-    <script>
-      (function(d) {
-        var config = {
-          kitId: 'qiw1oyw',
-          scriptTimeout: 3000,
-          async: true
-        },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-      })(document);
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130769410-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-130769410-1');
-    </script>
-  </head>
+<html lang="{{ page.lang | default: 'en' }}">
+  {% include head.html %}
 
   <body>
     <div class="container-fluid">
       <div class="row">
-        <nav class="navbar hidden-md-up navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger_menu" aria-controls="hamburger_menu" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="hamburger_menu">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
-              <li class="sidebar__contents">
-                <a href="../../index.html#profile">Profile</a>
-              </li>
-              <li class="sidebar__contents">
-                <a href="../../index.html#projects">Projects</a>
-              </li>
-              <li class="sidebar__contents">
-                <a href="../../index.html#publication">Publications</a>
-              </li>
-              <li class="sidebar__contents">
-                <a href="./resume/Resume_Seita_Kayukawa.pdf" target="_blank" rel="noopener noreferrer">
-                  Resume/CV
-                </a>
-              </li>
-              <li class="sidebar__contents">
-                <a href="../../index.html#contact">Contact</a>
-              </li>
-              <li class="sidebar__contents">
-                <span class="sidebar__icon">
-                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/google_icon.png" alt="" width=22></a>
-                </span>
-                <span class="sidebar__icon">
-                  <a href="https://www.facebook.com/profile.php?id=100009598263382" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/f_icon.png" alt="" width=22></a>
-                </span>
-                <span class="sidebar__icon">
-                  <a href="https://twitter.com/_wotipati_" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/twitter_icon.png" alt="" width=22></a>
-                </span>
-                <span class="sidebar__icon">
-                  <a href="https://github.com/Wotipati" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/github_icon.png" alt="" width=22></a>
-                </span>
-              </li>
-              <li class="sidebar__contents"></li>
-            </ul>
-          </div>
-        </nav>
-
-        <nav class="col-lg-3 col-md-3 hidden-sm-down sidebar mx-auto">
-          <div class="float-right pr-lg-5">
-            <ul class="nav nav-pills flex-column">
-              <div class="sidebar__name">
-                <a href="../../index.html#profile">Seita Kayukawa</a>
-              </div>
-              <div class="sidebar__contents">
-                <a href="../../index.html#profile">Profile</a>
-              </div>
-              <div class="sidebar__contents">
-                <a href="../../index.html#projects">Projects</a>
-              </div>
-              <div class="sidebar__contents">
-                <a href="../../index.html#publication">Publications</a>
-              </div>
-              <div class="sidebar__contents">
-                <a href="../../resume/Resume_Seita_Kayukawa.pdf" target="_blank" rel="noopener noreferrer">
-                  Resume/CV
-                </a>
-              </div>
-              <div class="sidebar__contents">
-                <a href="../../index.html#contact">Contact</a>
-              </div>
-              <div class="sidebar__icons">
-                <span class="sidebar__icon">
-                  <a href="https://scholar.google.co.jp/citations?user=SpfOQHAAAAAJ&hl=ja" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/google_icon.png" alt="" width=22></a>
-                </span>
-                <span class="sidebar__icon">
-                  <a href="https://twitter.com/_wotipati_" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/twitter_icon.png" alt="" width=22></a>
-                </span>
-                <span class="sidebar__icon">
-                  <a href="https://github.com/Wotipati" target="_blank" rel="noopener noreferrer"><img src="../../img/icon/github_icon.png" alt="" width=22></a>
-                </span>
-              </div>
-            </ul>
-          </div>
-        </nav>
+        {% include navigation.html %}
 
         <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
 
@@ -162,7 +48,7 @@
           </div>
 
           <p class="resizeimage">
-            <img src="./BBeep_figure3.png">
+            <img src="./BBeep_figure3.png" alt="直線廊下の壁から0.7m離して置いたBBeepと、奥から近づく歩行者">
           </p>
           <div class="figure_reference">
             S. Kayukawa, et al. “BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians”, in CHI ‘19.
@@ -253,7 +139,7 @@
           </div>
 
           <p class="resizeimage" style="margin-bottom: 1.5rem;">
-            <img src="./BBeep_figure4.png">
+            <img src="./BBeep_figure4.png" alt="音パターン別の最小距離。S1～S7は順に1.52、1.29、1.48、1.22、1.47、1.25、1.16m。S3–S4とS4–S7に有意差">
           </p>
 
           <div class="blog_div">
@@ -291,7 +177,7 @@
             ・Teaser Image
           </div>
           <p class="resizeimage" style="margin-bottom: 1.5rem;">
-            <img src="./BBeep_figure1.png">
+            <img src="./BBeep_figure1.png" alt="BBeepが歩行者を検出し、衝突を予測して音を鳴らし、歩行者が進路を譲る流れ">
           </p>
           <blockquote>
             <p>This figure shows the flow of our system with exemplifying sketches and images.  It portrays both the user and a pedestrian, showing all the sequence of steps from, detecting the pedestrian’s position using the RGB image and the depth data; predicting that a future collision will occur; and provide a sound notification. The image shows the pedestrian clearing the path for the user.</p>
@@ -301,7 +187,7 @@
             ・提案手法のフロー
           </div>
           <p class="resizeimagewide" style="margin-bottom: 1.5rem;">
-            <img src="./BBeep_figure2.png">
+            <img src="./BBeep_figure2.png" alt="BBeepの処理フロー：歩行者検出、追跡、将来位置予測、衝突リスク時の音通知">
           </p>
           <blockquote>
             <p>The caption provides a comprehensive description of this image. It first shows a sketch of our prototype. A) shows real images, while B, C and D show sketches with the users’ trajectory and predictions.
@@ -312,7 +198,7 @@
             ・提案システムの挙動を示したイラスト
           </div>
           <p class="resizeimage" style="margin-bottom: 1.5rem;">
-            <img src="./BBeep_figure5.png">
+            <img src="./BBeep_figure5.png" alt="衝突まで5秒で低緊急音、2.5秒で中緊急音、0.7mで停止音を鳴らす方針">
           </p>
           <blockquote>
             <p>This figure shows our designed policy of sound emission for BBeep, using a sketched example. It shows that different types of sounds are provided depending on the distance (in terms of time it takes to a potential collision with the user), using colors to show such differences.</p>
@@ -322,7 +208,7 @@
             ・評価実験の様子
           </div>
           <p class="resizeimage" style="margin-bottom: 1.5rem;">
-            <img src="./BBeep_figure6.png">
+            <img src="./BBeep_figure6.png" alt="空港の混雑環境でBBeepを引く視覚障害のある参加者と後方の実験者">
           </p>
           <blockquote>
             <p>This figure shows an example situation of our user evaluation in an airport. A blind participant walk through a crowded environment with our system. A researcher is walking behind them to guarantee their safety.</p>
@@ -342,13 +228,13 @@
 
           <div class="row align-items-center">
             <div class="col-lg-4 col-sm-4 col-6 offset-0">
-              <img src="./Picture5.png" style="padding-top: 0.5rem; display: block; width: 100%; ">
+              <img src="./Picture5.png" style="padding-top: 0.5rem; display: block; width: 100%; " alt="メール到着から削除、アラート、完了判定までを示す状態遷移図">
             </div>
             <div class="col-lg-4 col-sm-4 col-6 offset-0">
-              <img src="./Picture6.png" style="padding-top: 0.5rem; display: block; width: 100%">
+              <img src="./Picture6.png" style="padding-top: 0.5rem; display: block; width: 100%" alt="データソース、前処理、クエリ生成、ナビゲーション支援、表示操作から成るシステム構成図">
             </div>
             <div class="col-lg-4 col-sm-4 col-6 offset-sm-0 offset-3">
-              <img src="./Picture7.png" style="padding-top: 0.5rem; display: block; width: 100%">
+              <img src="./Picture7.png" style="padding-top: 0.5rem; display: block; width: 100%" alt="IBMを例に、企業のキー、CIK、人物、役職、設立年を結ぶデータ構造図">
             </div>
           </div>
           <div class="figure_reference">
@@ -371,7 +257,7 @@
 
           <div class="row align-items-center">
             <div class="col-xl-8 col-md-10 col-sm-10 offset-xl-2 offset-sm-1">
-              <img src="./acrobat.png" style="padding-top: 0.5rem; display: block; width: 100%">
+              <img src="./acrobat.png" style="padding-top: 0.5rem; display: block; width: 100%" alt="Adobe Acrobatのアクセシビリティ画面でPDF画像に代替テキストを設定している例">
             </div>
           </div>
           <div class="caption" style="padding-top: 1.0rem;">Adobe Acrobatを用いて論文をアクセシブルに．</div>
@@ -411,10 +297,7 @@
             最後までお読みいただき，ありがとうございました．
           </div>
 
-          <div class="footer">
-            <div>&copy; Seita Kayukawa</div>
-            <div style="font-size: 0.75rem;">Last update: 2020.10.12</div>
-          </div>
+          {% include footer.html %}
 
         </main>
       </div> <!-- div class="row" -->
@@ -422,17 +305,7 @@
 
 
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
-
-
+  {% include scripts.html %}
 
   </body>
 </html>

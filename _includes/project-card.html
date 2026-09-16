@@ -1,0 +1,54 @@
+{% assign project = include.project %}
+{% assign publication = include.publication %}
+{% assign card_title = project.title_override | default: publication.title | strip %}
+{% assign title_last_index = card_title.size | minus: 1 %}
+{% assign title_last_character = card_title | slice: title_last_index, 1 %}
+{% if title_last_character == '.' %}
+  {% assign card_title = card_title | slice: 0, title_last_index %}
+{% endif %}
+{% assign card_authors = project.authors_override | default: publication.authors | strip %}
+{% if project.note %}
+  {% assign author_note_suffix = ' ' | append: project.note | append: '.' %}
+  {% assign card_authors = card_authors | remove: author_note_suffix | strip %}
+{% endif %}
+{% assign authors_last_index = card_authors.size | minus: 1 %}
+{% assign authors_last_character = card_authors | slice: authors_last_index, 1 %}
+{% if authors_last_character == '.' %}
+  {% assign card_authors = card_authors | slice: 0, authors_last_index %}
+{% endif %}
+{% assign has_scheme = false %}
+{% if project.url contains ':' %}{% assign has_scheme = true %}{% endif %}
+{% assign is_external = false %}
+{% if project.external == true %}
+  {% assign is_external = true %}
+{% elsif project.external != false and project.url contains '://' %}
+  {% assign is_external = true %}
+{% endif %}
+<div class="row align-items-center">
+  <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
+    <span class="project_teaser">
+      <a href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+        <img style="opacity: {{ project.image_opacity | default: 1 }}; display: block; margin: auto;" class="rounded" src="{{ project.thumbnail | relative_url }}" alt="{{ card_title | escape }}" width="100%">
+      </a>
+    </span>
+  </div>
+  <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
+    <div class="project_name">
+      <a href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ card_title | escape }}</a>
+    </div>
+    <div class="project_author">{{ card_authors | escape }}</div>
+    {% if project.note %}<div class="project_note">{{ project.note | escape }}</div>{% endif %}
+    {% if project.venue_wrapper %}
+      <div><span class="label conf project">{{ project.venue_label | escape }}</span></div>
+    {% else %}
+      <div class="label conf project">{{ project.venue_label | escape }}</div>
+    {% endif %}
+  </div>
+</div>
+{% unless include.is_last %}
+<div class="row">
+  <div class="col-12 pt-2 pb-3 pb-sm-2 align-middle">
+    <div class="project_line"></div>
+  </div>
+</div>
+{% endunless %}

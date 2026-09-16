@@ -101,6 +101,16 @@ a.anchor{
   margin-bottom: 0.7rem;
   text-shadow: 1px 1px 6px #000000;
 }
+.project_hero{
+  background-color: #435561;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .35rem;
+}
+.project_hero_content{
+  padding: 1.5rem 2rem 1rem;
+}
 .project_index{
   clear: both;
   font-size: 1.3rem;
@@ -161,7 +171,6 @@ a.anchor{
   margin-top: 0.5rem;
   margin-left: 0.1rem;
   margin-right: 0.3rem;
-  background-color: none;
   background-image: none;
   padding: 0.1833em .533em;
   border: 1px solid;
@@ -332,7 +341,7 @@ a.anchor{
 }
 
 .project_line{
-  border-top: solid 1px #637D8F;
+  border-top: solid 1px #435561;
   margin-top: 3.0rem;
   margin-bottom: 3.0rem;
   opacity: 0.25;
@@ -415,10 +424,6 @@ a.anchor{
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
-.project_line{
-  border-top: solid 1px #435561;
-  opacity: 0.25;
-}
 .project_teaser{
   display: flex;
 }
@@ -441,7 +446,6 @@ a.anchor{
   vertical-align: middle;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
-  background-color: none;
   background-image: none;
   padding: 0.1033em .633em;
   border: 1px solid #4267B2;
@@ -449,7 +453,6 @@ a.anchor{
   text-transform: none;
   font-weight: 500;
   font-size: 0.75rem;
-  border: 1 solid transparent;
   border-radius: .26666667rem;
 }
 
