@@ -28,7 +28,7 @@
   <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
     <span class="project_teaser">
       <a href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
-        <img style="opacity: {{ project.image_opacity | default: 1 }}; display: block; margin: auto;" class="rounded" src="{{ project.thumbnail | relative_url }}" alt="{{ card_title | escape }}" width="100%">
+        <img style="opacity: {{ project.image_opacity | default: 1 }}; display: block; margin: auto; width: 100%; height: auto;" class="rounded" src="{{ project.thumbnail | relative_url }}" alt="{{ card_title | escape }}" width="{{ project.thumbnail_dimensions[0] }}" height="{{ project.thumbnail_dimensions[1] }}" loading="lazy" decoding="async">
       </a>
     </span>
   </div>

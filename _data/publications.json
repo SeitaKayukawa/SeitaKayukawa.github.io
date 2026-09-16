@@ -28,10 +28,10 @@
         }
       ],
       "id": "pub-assets-2025-engage-workshop",
-      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2023.</span>\n              <span class=\"body_en_bold\">Engaging Visually Impaired People in Science Museums Through an Immersive Workshop: Practices, Challenges, and Opportunities.</span>\n              <span>In <i>Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)</i></span>.",
+      "citation_html": "<span>Xiyue Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2025.</span>\n              <span class=\"body_en_bold\">Engaging Visually Impaired People in Science Museums Through an Immersive Workshop: Practices, Challenges, and Opportunities.</span>\n              <span>In <i>Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)</i></span>.",
       "authors": "Xiyue Wang, Seita Kayukawa, Hironobu Takagi, and Chieko Asakawa.",
       "title": "Engaging Visually Impaired People in Science Museums Through an Immersive Workshop: Practices, Challenges, and Opportunities.",
-      "year": 2023,
+      "year": 2025,
       "venue": "In Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)"
     },
     {
@@ -68,10 +68,10 @@
         }
       ],
       "id": "pub-chi-2025-beyond-omakase",
-      "citation_html": "<span>Rie Kamikubo, <span class=\"body_en_bold\">Seita Kayukawa</span>, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2024.</span>\n              <span class=\"body_en_bold\">Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People.</span>\n              <span>In <i>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)</i></span>.",
+      "citation_html": "<span>Rie Kamikubo, <span class=\"body_en_bold\">Seita Kayukawa</span>, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2025.</span>\n              <span class=\"body_en_bold\">Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People.</span>\n              <span>In <i>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)</i></span>.",
       "authors": "Rie Kamikubo, Seita Kayukawa, Yuka Kaniwa, Allan Wang, Hernisa Kacorri, Hironobu Takagi, and Chieko Asakawa.",
       "title": "Beyond Omakase: Designing Shared Control for Navigation Robots with Blind People.",
-      "year": 2024,
+      "year": 2025,
       "venue": "In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)"
     },
     {
@@ -179,7 +179,7 @@
         {
           "kind": "award",
           "label": "Best Technical Paper Award",
-          "href": "http://www.w4a.info/2024/awards/"
+          "href": "https://www.w4a.info/2024/awards/"
         }
       ],
       "id": "pub-w4a-2024-direct-or-immersive",

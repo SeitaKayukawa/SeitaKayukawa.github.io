@@ -88,13 +88,23 @@ for (const file of htmlFiles) {
 
   for (const match of activeHtml.matchAll(/<iframe\b([^>]*)>/gi)) {
     if (!/\btitle\s*=\s*["'][^"']+["']/i.test(match[1])) report(file, "contains an iframe without a title");
+    if (!/\bloading\s*=\s*["']lazy["']/i.test(match[1])) report(file, "contains an iframe without lazy loading");
   }
 
   for (const match of activeHtml.matchAll(/<img\b([^>]*)>/gi)) {
     if (!/\balt\s*=\s*["'][^"']*["']/i.test(match[1])) report(file, "contains an image without an alt attribute");
   }
 
-  for (const match of activeHtml.matchAll(/\b(?:href|src|poster)\s*=\s*(["'])(.*?)\1/gi)) {
+  for (const match of activeHtml.matchAll(/<video\b([^>]*)>/gi)) {
+    if (/\bautoplay(?:\s*=|\s|$)/i.test(match[1]) && !/\bdata-lazy-video(?:\s*=|\s|$)/i.test(match[1])) {
+      report(file, "contains an autoplay video without lazy loading");
+    }
+    if (/\bdata-lazy-video(?:\s*=|\s|$)/i.test(match[1]) && !/\bpreload\s*=\s*["']none["']/i.test(match[1])) {
+      report(file, "contains a lazy video without preload=none");
+    }
+  }
+
+  for (const match of activeHtml.matchAll(/\b(?:href|src|poster|data-src)\s*=\s*(["'])(.*?)\1/gi)) {
     const reference = match[2].trim();
     if (!reference || /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(reference)) continue;
 
@@ -151,14 +161,31 @@ for (const group of Object.keys(publications)) {
 const publicationEntries = Object.values(publications).filter(Array.isArray).flat();
 const publicationById = new Map(publicationEntries.map((publication) => [publication.id, publication]));
 
+async function pngDimensions(file) {
+  const buffer = await readFile(file);
+  const signature = "89504e470d0a1a0a";
+  if (buffer.length < 24 || buffer.subarray(0, 8).toString("hex") !== signature) return null;
+  return [buffer.readUInt32BE(16), buffer.readUInt32BE(20)];
+}
+
 for (const project of projects) {
-  for (const key of ["id", "publication_id", "url", "thumbnail", "venue_label"]) {
+  for (const key of ["id", "publication_id", "url", "thumbnail", "thumbnail_dimensions", "venue_label"]) {
     if (!project[key]) report(path.join(repositoryRoot, "_data/projects.json"), `${project.id || "project"} is missing ${key}`);
   }
   if (seenIds.has(project.id)) report(path.join(repositoryRoot, "_data/projects.json"), `duplicate id ${project.id}`);
   seenIds.add(project.id);
-  if (project.thumbnail?.startsWith("/") && !existsSync(path.join(repositoryRoot, project.thumbnail.slice(1)))) {
-    report(path.join(repositoryRoot, "_data/projects.json"), `${project.id} has a missing thumbnail ${project.thumbnail}`);
+  if (project.thumbnail?.startsWith("/")) {
+    const thumbnailFile = path.join(repositoryRoot, project.thumbnail.slice(1));
+    if (!existsSync(thumbnailFile)) {
+      report(path.join(repositoryRoot, "_data/projects.json"), `${project.id} has a missing thumbnail ${project.thumbnail}`);
+    } else {
+      const actualDimensions = await pngDimensions(thumbnailFile);
+      if (!Array.isArray(project.thumbnail_dimensions) || project.thumbnail_dimensions.length !== 2 || project.thumbnail_dimensions.some((value) => !Number.isInteger(value) || value <= 0)) {
+        report(path.join(repositoryRoot, "_data/projects.json"), `${project.id} has invalid thumbnail_dimensions`);
+      } else if (actualDimensions && actualDimensions.some((value, index) => value !== project.thumbnail_dimensions[index])) {
+        report(path.join(repositoryRoot, "_data/projects.json"), `${project.id} thumbnail_dimensions do not match ${project.thumbnail}`);
+      }
+    }
   }
   if (project.publication_id && !publicationById.has(project.publication_id)) {
     report(path.join(repositoryRoot, "_data/projects.json"), `${project.id} references unknown publication ${project.publication_id}`);
