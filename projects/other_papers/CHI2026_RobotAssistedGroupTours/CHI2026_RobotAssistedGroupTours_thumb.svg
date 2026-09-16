@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="852" height="517" viewBox="0 0 852 517" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder thumbnail for Robot-Assisted Group Tours for Blind People</title>
+  <desc id="description">A temporary CHI 2026 project thumbnail with a simple robot and group-tour motif.</desc>
+  <rect width="852" height="517" rx="18" fill="#f4f7f8"/>
+  <rect x="1.5" y="1.5" width="849" height="514" rx="16.5" fill="none" stroke="#d8e1e6" stroke-width="3"/>
+  <path d="M100 385 C175 310 226 347 295 282 S407 215 476 260" fill="none" stroke="#0b8c92" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 28"/>
+  <g transform="translate(89 105)" fill="none" stroke="#435561" stroke-width="9">
+    <rect x="150" y="98" width="108" height="110" rx="25" fill="#ffffff"/>
+    <circle cx="183" cy="142" r="8" fill="#0b8c92" stroke="none"/>
+    <circle cx="225" cy="142" r="8" fill="#0b8c92" stroke="none"/>
+    <path d="M178 177 Q204 195 230 177" stroke-linecap="round"/>
+    <path d="M204 98 V68" stroke-linecap="round"/>
+    <circle cx="204" cy="55" r="12" fill="#0b8c92" stroke="none"/>
+    <circle cx="98" cy="75" r="30" fill="#ffffff"/>
+    <path d="M46 183 Q47 119 98 119 Q149 119 150 183" fill="#ffffff" stroke-linecap="round"/>
+    <circle cx="309" cy="75" r="30" fill="#ffffff"/>
+    <path d="M258 183 Q259 119 309 119 Q360 119 361 183" fill="#ffffff" stroke-linecap="round"/>
+  </g>
+  <text x="530" y="224" fill="#0b8c92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="57" font-weight="700" letter-spacing="1.5">CHI 2026</text>
+  <path d="M532 248 H758" stroke="#d8e1e6" stroke-width="3"/>
+  <text x="532" y="294" fill="#637d8f" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" letter-spacing="0.5">Temporary thumbnail</text>
+</svg>

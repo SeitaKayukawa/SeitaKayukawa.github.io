@@ -6,6 +6,7 @@
 
 # Local Jekyll build artifacts
 _site/
+.jekyll-metadata
 .jekyll-cache/
 .sass-cache/
 .bundle/

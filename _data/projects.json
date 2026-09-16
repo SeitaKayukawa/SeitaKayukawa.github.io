@@ -1,5 +1,17 @@
 [
   {
+    "id": "project-robot-assisted-group-tours",
+    "publication_id": "pub-chi-2026-robot-assisted-group-tours",
+    "url": "https://dl.acm.org/doi/full/10.1145/3772318.3790425",
+    "thumbnail": "/projects/other_papers/CHI2026_RobotAssistedGroupTours/CHI2026_RobotAssistedGroupTours_thumb.svg",
+    "thumbnail_dimensions": [
+      852,
+      517
+    ],
+    "image_opacity": 0.95,
+    "venue_label": "CHI 2026"
+  },
+  {
     "id": "project-engage-workshop",
     "publication_id": "pub-assets-2025-engage-workshop",
     "url": "https://dl.acm.org/doi/10.1145/3663547.3746348",

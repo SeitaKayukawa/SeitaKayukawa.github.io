@@ -5,6 +5,36 @@
       "resources": [
         {
           "kind": "conf",
+          "label": "CHI 2026"
+        },
+        {
+          "kind": "link",
+          "label": "DOI",
+          "href": "https://dl.acm.org/doi/full/10.1145/3772318.3790425"
+        },
+        {
+          "kind": "pdf",
+          "label": "Paper",
+          "href": "https://dl.acm.org/doi/pdf/10.1145/3772318.3790425"
+        },
+        {
+          "kind": "bibtex",
+          "label": "BibTeX",
+          "href": "/projects/other_papers/CHI2026_RobotAssistedGroupTours/CHI2026_RobotAssistedGroupTours_bibtex.html"
+        }
+      ],
+      "id": "pub-chi-2026-robot-assisted-group-tours",
+      "citation_html": "<span>Yaxin Hu, Masaki Kuribayashi, Allan Wang, <span class=\"body_en_bold\">Seita Kayukawa</span>, Daisuke Sato, Bilge Mutlu, Hironobu Takagi, and Chieko Asakawa.</span>\n              <span>2026.</span>\n              <span class=\"body_en_bold\">Robot-Assisted Group Tours for Blind People.</span>\n              <span>In <i>Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)</i></span>.",
+      "authors": "Yaxin Hu, Masaki Kuribayashi, Allan Wang, Seita Kayukawa, Daisuke Sato, Bilge Mutlu, Hironobu Takagi, and Chieko Asakawa.",
+      "title": "Robot-Assisted Group Tours for Blind People.",
+      "year": 2026,
+      "venue": "In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)"
+    },
+    {
+      "language": "en",
+      "resources": [
+        {
+          "kind": "conf",
           "label": "ASSETS 2025"
         },
         {
