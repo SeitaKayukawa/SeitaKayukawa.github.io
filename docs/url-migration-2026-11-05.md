@@ -76,7 +76,34 @@ git diff --check
 - GitHub Actionsの `Validate site` はpush・PRに加えて手動実行も可能。
 - GitHub Pagesが生成する未使用の `assets/css/style.css` は本番で圧縮されるため、ローカル版とサイズが異なる。新旧の公開版同士で同一性を確認する。実ページが使う `css/` 以下は変更しない。
 
+## 公開後の確認結果（完了）
+
+新サイトの公開と全配信ファイルの検証が成功した後に、旧サイトの転送を有効にした。
+正規サイトの実装は `cec3ada`、旧サイトの転送有効化は `3f3e3b9`。いずれも `de6eeae` を祖先に含む。
+
+| 検証 | 結果 |
+| --- | --- |
+| 新サイトのCI | [Validate site成功](https://github.com/SeitaKayukawa/SeitaKayukawa.github.io/actions/runs/41952330467) |
+| 新サイトの公開 | [Pages公開成功](https://github.com/SeitaKayukawa/SeitaKayukawa.github.io/actions/runs/41952329561) |
+| 旧サイトのCI | [Validate site成功](https://github.com/Wotipati/Wotipati.github.io/actions/runs/41952787325) |
+| 旧サイトの公開 | [Pages公開成功](https://github.com/Wotipati/Wotipati.github.io/actions/runs/41952786847) |
+| HTTPS配信 | 新旧それぞれ全260ファイル、計520 URLでエラーなし。HTMLは200。資料は通常200、Rangeリクエストは206 |
+| 全HTML | 46件のcanonical、OGP、転送の有無を公開HTMLで確認。旧HTMLの転送コードはローカルで153ケース検証したコードと一致 |
+| 資料 | 配信サイズと先頭1024バイトを照合。CV PDF・InDesign・CHI 2026サムネイルは新旧両方の全内容でSHA-256一致 |
+| 表示 | 新URLでトップとBBeepを目視。従来のレイアウト・配色、画像・英語の説明を保持 |
+| ブラウザ転送 | トップ、BBeep、ブログ、BibTeX、ディレクトリ形式、存在しないパスの6例で、同じパス・query・hashの新URLへ到達 |
+| 不明なパス | 新旧の初回HTTP応答は404。旧側から新側の同じパスへ移動し、新側で404を表示。トップへ転送せず、ループなし |
+| JavaScript無効 | 全45既存HTMLのnoscript meta refreshと手動リンクの行き先を生成物で検証。JavaScriptを無効化した実ブラウザでの確認は未実施 |
+
+公開時にGitHub管理のPagesビルドからGemfile依存関係とNodeランタイムに関する警告が出るが、ビルド・公開は成功した。
+公開ファイルを別途検証している。外部サービスの過去のリンク切れは今回のURL移行とは別で、以前の最終確認記録を参照。
+
 ## 今後の運用と復旧
+
+MacBookの既存フォルダ名は `Wotipati.github.io` のままだが、通常作業ブランチは `main`、追跡先は新リポジトリの `origin/main`。
+`origin` は `git@github.com:SeitaKayukawa/SeitaKayukawa.github.io.git`、`legacy` は旧リポジトリ。
+`codex/legacy-url-redirects` は旧 `legacy/main` を追跡する。旧設定を新 `main` へマージしない。
+Mac mini等の別cloneは自動では変更されない。通常の更新を再開する前に未コミット変更とremoteを確認し、新リポジトリを取得して更新先を切り替える。
 
 通常の更新は新リポジトリで行う。旧HTMLの転送先は同じパスなので、新サイトの既存パスは削除・変更しない。
 旧資料URLを今後も最新内容へ更新したい場合は、該当する資料ファイルを旧リポジトリにも同じパスでコピーして検証・pushする。自動同期は行わない。

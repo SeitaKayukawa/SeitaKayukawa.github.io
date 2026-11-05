@@ -113,3 +113,11 @@ ACMのDOI・PDFを含む34 URLは403、ほかに429・999・402が各1 URLあり
 - mainのCV更新は `0b72da1` で作業ブランチへ取り込み済みです。PDFとInDesignの元ファイルは上流の更新をそのまま維持しています。
 - 次の作業はMacBook側での公開URL移行です。移行先は `https://seitakayukawa.github.io/`。旧URLへのアクセスは、トップへ一律転送せず、対応するプロジェクトやブログのパスを保って転送する方針です。
 - URL移行は未実施です。`_config.yml`、公開リポジトリ、旧サイトの転送設定は変更していません。GitHub Pagesの公開元は `Wotipati/Wotipati.github.io` の `main`・ルートです。新URLのサイト公開を確認してから旧サイトの転送を有効化してください。
+
+## 公開URL移行の完了追記（2026-11-05）
+
+上記は移行開始前の引き継ぎ記録です。その後、MacBookで新サイトの公開を検証してから旧サイトの転送を有効にしました。
+正規URLは `https://seitakayukawa.github.io/`、今後の更新先は `SeitaKayukawa/SeitaKayukawa.github.io` のmainです。
+旧リポジトリはHTMLの対応パス転送と資料の直リンクを維持するため残しています。
+新旧各260ファイルの配信、パス・query・hashの転送、CI・Pages成功を確認しました。
+詳しい結果、JavaScript無効時とPDF等の制約、MacBookのremote構成は [URL移行記録](url-migration-2026-11-05.md) を参照してください。
