@@ -2,6 +2,11 @@
 
 このサイトはGitHub PagesのJekyllビルドを利用しています。公開URLと見た目を維持しながら、共通部品と一覧データを一元管理しています。
 
+2026-11-05のURL移行後は `https://seitakayukawa.github.io/` が正規URLです。
+通常の更新先は **SeitaKayukawa/SeitaKayukawa.github.io の main** です。
+旧 **Wotipati/Wotipati.github.io** は転送と既存資料の直リンクを維持するため残します。
+移行手順・検証・制約は [url-migration-2026-11-05.md](url-migration-2026-11-05.md) を参照してください。
+
 Jekyllは公開時にテンプレートとデータを完成済みのHTMLへ展開します。アクセスのたびにページを生成したり、ブラウザからJSONを取得したりする構成ではありません。公開後は従来と同じ静的サイトとして配信されます。
 
 ## ローカルで確認する
@@ -25,6 +30,8 @@ bundle exec jekyll serve
 ```sh
 bundle exec jekyll build --trace --strict_front_matter
 node scripts/check-site.mjs
+node scripts/check-migration.mjs
+git diff --check
 ```
 
 検証では、全HTMLのローカルリンクとページ内アンカー、重複ID、名前のないリンク、見出し・main・スキップ先、画像のalt属性、動画の説明と参照先、iframeのタイトル、一覧データの必須項目などを確認します。同じ検証はPull Requestでも自動実行されます。説明の正確さや読み上げの使いやすさは別途確認してください。

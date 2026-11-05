@@ -1,0 +1,13 @@
+{% if site.legacy_redirect %}
+<script id="legacy-site-redirect">
+  (function () {
+    // Use a fixed origin; never interpret a query parameter as a redirect URL.
+    if (window.location.hostname === "wotipati.github.io") {
+      window.location.replace("https://seitakayukawa.github.io" + window.location.pathname + window.location.search + window.location.hash);
+    }
+  }());
+</script>
+{% unless page.not_found %}
+<noscript><meta http-equiv="refresh" content="0; url={{ page.url | absolute_url | escape }}"></noscript>
+{% endunless %}
+{% endif %}

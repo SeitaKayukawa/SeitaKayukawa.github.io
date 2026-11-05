@@ -1,0 +1,26 @@
+---
+title: "Page not found — Seita Kayukawa"
+description: "The requested page could not be found."
+not_found: true
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        {% include navigation.html %}
+        <main id="main-content" class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" tabindex="-1">
+          <h1 class="profile_tytle">Page not found</h1>
+          <p>The requested page could not be found. Please check the address.</p>
+          {% if site.legacy_redirect %}
+          <p>This website has moved. With JavaScript enabled, the same path is opened on the new site. Otherwise, replace <code>wotipati.github.io</code> with <code>seitakayukawa.github.io</code> in the address, keeping the rest unchanged.</p>
+          {% endif %}
+          <p><a href="{{ '/' | absolute_url }}">Visit Seita Kayukawa’s homepage</a> to find projects and publications.</p>
+        </main>
+      </div>
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

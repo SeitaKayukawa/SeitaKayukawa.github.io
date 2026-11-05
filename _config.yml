@@ -1,7 +1,10 @@
 title: Seita Kayukawa
 description: Research profile, projects, and publications of Seita Kayukawa.
-url: https://wotipati.github.io
+url: https://seitakayukawa.github.io
 baseurl: ""
+
+# Enable only in Wotipati/Wotipati.github.io after the new site is verified.
+legacy_redirect: false
 
 plugins:
   - jekyll-sitemap

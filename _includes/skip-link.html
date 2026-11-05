@@ -1,1 +1,4 @@
 <a class="skip-link" href="#main-content" lang="{{ page.lang | default: 'en' }}">{% if page.lang == 'ja' %}本文へスキップ{% else %}Skip to main content{% endif %}</a>
+{% if site.legacy_redirect and page.not_found != true %}
+<noscript><p lang="en">This page has moved to <a href="{{ page.url | absolute_url | escape }}">its new address</a>. If automatic navigation is disabled, follow this link. You may need to copy the query string and fragment from the old address.</p></noscript>
+{% endif %}

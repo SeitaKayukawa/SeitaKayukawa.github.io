@@ -21,3 +21,5 @@ jobs:
         run: bundle exec jekyll build --trace --strict_front_matter
       - name: Validate generated pages and local links
         run: node scripts/check-site.mjs
+      - name: Validate canonical URLs and migration behavior
+        run: node scripts/check-migration.mjs
