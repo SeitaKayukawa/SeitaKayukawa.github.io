@@ -32,7 +32,7 @@ MacBookの `/Users/kayukawa/Wotipati.github.io` はクリーンな `main`、remo
 | JavaScript無効 | ページ別のnoscript meta refreshで対応ページへ移動。自動転送も無効なら明示的なリンクを使用 |
 | JavaScript無効時のquery/hash | リクエスト値を静的Jekyllが取得できないため保持を保証できない。必要ならアドレスを手動でコピー |
 | PDF・画像・動画・InDesign等 | 元のバイト列とパスを両リポジトリで保持し、旧URLも200で直接配信。HTMLへの置換はしない |
-| 存在しない旧パス | カスタム404がJavaScriptで同じパスを新サイトへ渡す。新側にもなければ404。JavaScript無効時はドメイン置換の案内 |
+| 存在しない旧パス | カスタム404がJavaScriptで同じパスを新サイトへ渡す。新側にもなければ404。表示内容はページ不存在とメインページへのリンクのみ |
 
 これは **HTTP 301/308ではなく、HTTP 200のHTMLを読んだブラウザによる転送**。
 404経由なら最初の応答は404。`curl -L` やJavaScriptを実行しないクライアントはJavaScript転送に追従しない。
@@ -100,7 +100,7 @@ git diff --check
 
 ## 今後の運用と復旧
 
-MacBookの既存フォルダ名は `Wotipati.github.io` のままだが、通常作業ブランチは `main`、追跡先は新リポジトリの `origin/main`。
+MacBookの作業フォルダは `/Users/kayukawa/SeitaKayukawa.github.io`。公開URL移行後、ローカルフォルダ名も新リポジトリ名へ変更した。通常作業ブランチは `main`、追跡先は新リポジトリの `origin/main`。
 `origin` は `git@github.com:SeitaKayukawa/SeitaKayukawa.github.io.git`、`legacy` は旧リポジトリ。
 `codex/legacy-url-redirects` は旧 `legacy/main` を追跡する。旧設定を新 `main` へマージしない。
 Mac mini等の別cloneは自動では変更されない。通常の更新を再開する前に未コミット変更とremoteを確認し、新リポジトリを取得して更新先を切り替える。
