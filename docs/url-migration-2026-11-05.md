@@ -19,6 +19,7 @@ MacBookの `/Users/kayukawa/Wotipati.github.io` はクリーンな `main`、remo
 ## 仕組みと制約
 
 `url` は両リポジトリとも新しい正規URLとし、canonical、OGP、sitemapを新URLへ統一する。
+`robots.txt` も正規URLのsitemapを明示し、GitHub側のデフォルト生成に依存しない。
 サイト内の旧ドメイン絶対リンクはルート相対リンクへ変更した。Xのハンドルや別のGitHubリポジトリへのリンクは別物なので維持する。
 
 新リポジトリでは `_config.yml` の `legacy_redirect: false`。
@@ -73,6 +74,7 @@ git diff --check
 - 既存45 HTMLの生成結果は、URLと空白を正規化すると移行前と一致。CSSや本文構造の変更なし。
 - ローカルブラウザで従来の表示を確認。`git diff --check` 成功。
 - GitHub Actionsの `Validate site` はpush・PRに加えて手動実行も可能。
+- GitHub Pagesが生成する未使用の `assets/css/style.css` は本番で圧縮されるため、ローカル版とサイズが異なる。新旧の公開版同士で同一性を確認する。実ページが使う `css/` 以下は変更しない。
 
 ## 今後の運用と復旧
 

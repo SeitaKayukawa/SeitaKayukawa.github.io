@@ -81,4 +81,6 @@ for (const match of sitemap.matchAll(/<loc>(.*?)<\/loc>/g)) {
   assert(files.includes(file), `sitemap missing target: ${match[1]}`);
 }
 assert(!sitemap.includes("/404.html"), "404 must not appear in sitemap");
+const robots = await readFile(path.join(root, "robots.txt"), "utf8");
+assert.equal(robots.trim(), `Sitemap: ${origin}/sitemap.xml`, "robots.txt must advertise the canonical sitemap");
 console.log(`Validated migration metadata for ${htmlCount} HTML files (${legacy ? `legacy, ${redirectCases} redirect cases and loop guards` : "new site, no redirects"}).`);
