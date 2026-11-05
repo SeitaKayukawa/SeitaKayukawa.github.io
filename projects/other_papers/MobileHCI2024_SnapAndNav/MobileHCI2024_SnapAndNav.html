@@ -15,18 +15,18 @@ last_updated: "2024.10.10"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_SaN">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./MobileHCI2024_Logo.png" alt="" width=180 style="padding-top: 1.5rem; padding-bottom: 0.5rem;">
-              <div class="project_title">
-                <div>
+              <h1 class="project_title semantic-heading">
+                <span style="display: block;">
                   Snap&Nav:
-                </div>
-                <div>
+                </span>
+                <span style="display: block;">
                   Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection
-                </div>
-              </div>
+                </span>
+              </h1>
 
               <div class="project_authors">
                 Masaya Kubota*, Masaki Kuribayashi*, Seita Kayukawa, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima
@@ -36,11 +36,11 @@ last_updated: "2024.10.10"
               </div>
             </div>
           </div>
-          <img src="./SnapAndNav_teaser.png" alt="" width="100%" style="opacity: 1; padding-top: 1.5rem; padding-bottom: 0.0rem;">
+          <img src="./SnapAndNav_teaser.png" alt="Snap&amp;Nav workflow: a sighted assistant photographs a floor map, which is converted into a network of intersections, the current position, and a destination. A smartphone detects intersections along the route and gives the blind traveler spoken navigation instructions." width="100%" style="opacity: 1; padding-top: 1.5rem; padding-bottom: 0.0rem;">
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             We present Snap&Nav, a navigation system for blind people in unfamiliar buildings, without prebuilt digital maps. Instead, the system utilizes the floor map as its primary information source for route guidance. The system requires a sighted assistant to capture an image of the floor map, which is analyzed to create a node map containing intersections, destinations, and current positions on the floor. The system provides turn-by-turn navigation instructions while tracking users' positions on the node map by detecting intersections. Additionally, the system estimates the scale difference of the node map to provide distance information. Our system was validated through two user studies with 20 sighted and 12 blind participants. Results showed that sighted participants processed floor map images without being accustomed to the system, while blind participants navigated with increased confidence and lower cognitive load compared to the condition using only cane, appreciating the system's potential for use in various buildings.
           </div>
@@ -51,28 +51,30 @@ last_updated: "2024.10.10"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Preview Video [0:33]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/sGqET2LBSN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Preview Video [0:33] — Snap&amp;Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection" src="https://www.youtube.com/embed/sGqET2LBSN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">Snap&amp;Nav analyzes a photographed floor map and detects intersections with a smartphone to provide indoor navigation for blind people.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [2:50]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/R5yphbGX7qU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [2:50] — Snap&amp;Nav: Smartphone-based Indoor Navigation System For Blind People via Floor Map Analysis and Intersection Detection" src="https://www.youtube.com/embed/R5yphbGX7qU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">Snap&amp;Nav analyzes a photographed floor map and detects intersections with a smartphone to provide indoor navigation for blind people.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publications
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Masaya Kubota*, Masaki Kuribayashi*, <span class="body_en_bold">Seita Kayukawa</span>, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).</span>
@@ -104,24 +106,24 @@ last_updated: "2024.10.10"
             </div>
           </div>
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center " >
+          <h2 class="project_index semantic-heading" style="text-align:center " >
             Code
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-lg-2 col-sm-3 col-4 offset-lg-0 pt-2 pb-2">
-              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://github.com/chestnutforestlabo/Snap-and-Nav"><img loading="lazy" decoding="async" class="rounded" src="./Github.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://github.com/chestnutforestlabo/Snap-and-Nav" aria-label="Snap&amp;Nav source code on GitHub"><img loading="lazy" decoding="async" class="rounded" src="./Github.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-lg-10 col-sm-9 col-8 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-0 pr-0">
-              <div class="project_name"><a target="_blank" rel="noopener noreferrer" href="https://github.com/chestnutforestlabo/Snap-and-Nav">GitHub - chestnutforestlabo/Snap-and-Nav</a></div>
+              <h3 class="project_name semantic-heading"><a target="_blank" rel="noopener noreferrer" href="https://github.com/chestnutforestlabo/Snap-and-Nav">GitHub - chestnutforestlabo/Snap-and-Nav</a></h3>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
@@ -158,7 +160,7 @@ last_updated: "2024.10.10"
               <div class="row">
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                       Hironobu Takagi
                     </a>
                   </div>
@@ -168,7 +170,7 @@ last_updated: "2024.10.10"
                 </div>
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                       Chieko Asakawa
                     </a>
                   </div>
@@ -221,7 +223,7 @@ last_updated: "2024.10.10"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://research.ibm.com/people/hironobu-takagi" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                   Hironobu Takagi
                 </a>
               </div>
@@ -231,7 +233,7 @@ last_updated: "2024.10.10"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://research.ibm.com/people/chieko-asakawa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -262,9 +264,9 @@ last_updated: "2024.10.10"
 
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             We would like to thank all the participants who took part in our user study. We would also thank Miraikan - The National Museum of Emerging Science and Innovation for their support. This work was supported by JSPS KAKENHI (JP23KJ2048).
@@ -272,19 +274,19 @@ last_updated: "2024.10.10"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center; margin-bottom: 0rem;">
+          <h2 class="project_index semantic-heading" style="text-align:center; margin-bottom: 0rem;">
             Related Projects
-          </div>
+          </h2>
           <div style="text-align:center; font-size: 1rem; padding-top: 0.5rem; margin-bottom: 2.5rem;">
             Mapless Navigation for Blind People
           </div>
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="https://sites.google.com/view/corridor-walkerproject/" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="rounded" src="../MobileHCI'22_Corridor-Walker/Corridor-Walker_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="https://sites.google.com/view/corridor-walkerproject/" target="_blank" rel="noopener noreferrer" aria-label="Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections"><img loading="lazy" decoding="async" class="rounded" src="../MobileHCI'22_Corridor-Walker/Corridor-Walker_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="https://sites.google.com/view/corridor-walkerproject/" target="_blank" rel="noopener noreferrer">Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections</a></div>
+              <h3 class="project_name semantic-heading"><a href="https://sites.google.com/view/corridor-walkerproject/" target="_blank" rel="noopener noreferrer">Corridor-Walker: Mobile Indoor Walking Assistance for Blind People to Avoid Obstacles and Recognize Intersections</a></h3>
               <div class="project_author">Masaki Kuribayashi, Seita Kayukawa, Jayakorn Vongkulbhisal, Daisuke Sato, Chieko Asakawa, Hironobu Takagi, and Shigeo Morishima</div>
               <div class="label conf project">MobileHCI 2022</div>
             </div>
@@ -292,10 +294,10 @@ last_updated: "2024.10.10"
           <div class="related_project_line"></div>
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="https://dl.acm.org/doi/10.1145/3544548.3580687" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="rounded" src="../CHI2023_PathFinder/PathFinder_Thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="https://dl.acm.org/doi/10.1145/3544548.3580687" target="_blank" rel="noopener noreferrer" aria-label="PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings"><img loading="lazy" decoding="async" class="rounded" src="../CHI2023_PathFinder/PathFinder_Thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="https://dl.acm.org/doi/10.1145/3544548.3580687" target="_blank" rel="noopener noreferrer">PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings</a></div>
+              <h3 class="project_name semantic-heading"><a href="https://dl.acm.org/doi/10.1145/3544548.3580687" target="_blank" rel="noopener noreferrer">PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings</a></h3>
               <div class="project_author">Masaki Kuribayashi, Tatsuya Ishihara, Daisuke Sato, Jayakorn Vongkulbhisal, Karnik Ram, Seita Kayukawa, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawaa</div>
               <div class="label conf project">CHI 2023</div>
             </div>

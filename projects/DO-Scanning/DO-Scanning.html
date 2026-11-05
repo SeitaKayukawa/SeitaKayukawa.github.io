@@ -15,18 +15,18 @@ last_updated: "2020.12.30"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_DOS">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./images/chi2018_logo.png" alt="" width=140 style="padding-top: 1.8rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
-                <div>
+              <h1 class="project_title semantic-heading">
+                <span style="display: block;">
                   Dynamic Object Scanning:
-                </div>
-                <div>
+                </span>
+                <span style="display: block;">
                   Object-Based Elastic Timeline for Quickly Browsing First-Person Videos
-                </div>
-              </div>
+                </span>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Masanori Nakamura, Yoichi Sato, and Shigeo Morishima
@@ -35,7 +35,7 @@ last_updated: "2020.12.30"
               <!-- <div style="padding-top: 0.3rem"><span class="label project">CHI EA'18</span></div> -->
             </div>
           </div>
-          <img src="./images/DO-Scanning-teaser.png" alt="" width="100%" style="opacity: 0.8; padding-top: 1.0rem; padding-bottom: 1.0rem;">
+          <img src="./images/DO-Scanning-teaser.png" alt="Dynamic Object Scanning converts a 10-minute first-person cooking video into a 1-minute summary. Object detection and cue filtering identify relevant objects; selecting a bowl keeps bowl-related segments at normal speed while accelerating the rest." width="100%" style="opacity: 0.8; padding-top: 1.0rem; padding-bottom: 1.0rem;">
 
           <div class="row">
             <div class="col-12 offset-xl-1 hidden-xl-up">
@@ -55,37 +55,39 @@ last_updated: "2020.12.30"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/77ueFtn66-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos" src="https://www.youtube.com/embed/77ueFtn66-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">Dynamic Object Scanning lets viewers select an object in a first-person video and quickly browse the segments containing it.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [2:15]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/FyuPaFXFWvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [2:15] — Dynamic Object Scanning: Object-Based Elastic Timeline for Quickly Browsing First-Person Videos" src="https://www.youtube.com/embed/FyuPaFXFWvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">Dynamic Object Scanning lets viewers select an object in a first-person video and quickly browse the segments containing it.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             This work presents an adaptive video fast-forwarding technique that helps users browse long and untrimmed videos quickly. The proposed method is built upon the concept of the elastic timeline that a) allows users to select low-level cues of a video that they like to enhance and b) adaptively fast-forwards the video while keeping scenes with the selected cues played at a lower speed. The proposed method helps users to choose appropriate cues, in particular, a small set of object cues arranged automatically tailored to the contents of a given video out of many. Our user studies show that object cues selected by our method allow users to browse videos recorded under a variety of scenarios, such as cooking at home, strolling in the street, and playing in an amusement park, more quickly compared to the state-of-the-art interface with the elastic timeline in event finding tasks.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publications
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Keita Higuchi, Ryo Yonetani, Masanori Nakamura, Yoichi Sato, and Shigeo Morishima.</span>
@@ -121,7 +123,7 @@ last_updated: "2020.12.30"
             </div>
           </div>
           <br>
-          <div class="pub_js">
+          <div class="pub_js" lang="ja">
             <div>
               <span>粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.</span>
               <span>一人称視点映像の高速閲覧に有効なキューの自動生成手法.</span>
@@ -140,7 +142,7 @@ last_updated: "2020.12.30"
             </div>
           </div>
           <br>
-          <div class="pub_js">
+          <div class="pub_js" lang="ja">
             <div>
               <span>粥川青汰, 樋口啓太, 中村優文, 米谷竜, 佐藤洋一, 森島繁生.</span>
               <span>物体検出とユーザ入力に基づく一人称視点映像の高速閲覧手法.</span>
@@ -157,9 +159,9 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
@@ -292,17 +294,17 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Patent
-          </div>
+          </h2>
           <div class="patent" style="text-align:center">
             表示制御装置、表示制御方法及び表示制御プログラム", 特願2018-80849, (出願中)
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             This work was supported by JST ACCEL (grant JPMJAC1602) and JST CREST (grant JPMJCR14E1).

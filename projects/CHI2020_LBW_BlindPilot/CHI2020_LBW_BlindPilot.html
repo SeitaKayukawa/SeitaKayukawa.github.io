@@ -15,13 +15,13 @@ last_updated: "2020.12.30"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_CHI20BlindPilot">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./image/chi2020_logo.png" alt="" width=90 style="padding-top: 1.6rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
+              <h1 class="project_title semantic-heading">
                 BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object
-              </div>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa
@@ -31,9 +31,10 @@ last_updated: "2020.12.30"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="BlindPilot chair navigation demonstration" aria-describedby="video-description-1" tabindex="0">
                 <source data-src="./movie/teaserMovie.mp4" type="video/mp4">
               </video>
+                <p id="video-description-1" class="visually-hidden" lang="en">A traveler holds the handle of BlindPilot and walks around tables and seated people toward an empty chair. The robot guides the traveler to the chair and indicates that it is on their right.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
@@ -54,9 +55,10 @@ last_updated: "2020.12.30"
               </div>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1 ">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: -1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: -1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="BlindPilot chair detection and route planning" aria-describedby="video-description-2" tabindex="0">
                 <source data-src="./movie/detection.mp4" type="video/mp4">
               </video>
+                <p id="video-description-2" class="visually-hidden" lang="en">System diagram showing how an RGB camera detects an empty chair and depth sensing estimates its 3D position. LiDAR-based mapping supports planning a path around obstacles to the chair.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-xl-up">
               <div class="teaser">
@@ -67,9 +69,10 @@ last_updated: "2020.12.30"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="BlindPilot evaluation comparison" aria-describedby="video-description-3" tabindex="0">
                 <source data-src="./movie/evaluation.mp4" type="video/mp4">
               </video>
+                <p id="video-description-3" class="visually-hidden" lang="en">Side-by-side evaluation footage compares searching for a chair with audio navigation and a white cane against walking with BlindPilot. Overlaid floor plans trace the routes from the starting point to the chair; the footage is sped up.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
@@ -87,37 +90,39 @@ last_updated: "2020.12.30"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/29Rfj0qq-BM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object" src="https://www.youtube.com/embed/29Rfj0qq-BM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">BlindPilot guides a blind traveler around obstacles to an empty chair using a robotic handle.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [1:44]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/3rtsjyco_nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [1:44] — BlindPilot: A Robotic Local Navigation System that Leads Blind People to a Landmark Object" src="https://www.youtube.com/embed/3rtsjyco_nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">BlindPilot guides a blind traveler around obstacles to an empty chair using a robotic handle.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             Blind people face various local navigation challenges in their daily lives such as identifying empty seats in crowded stations, navigating toward a seat, and stopping and sitting at the correct spot. Although voice navigation is a commonly used solution, it requires users to carefully follow frequent navigational sounds over short distances. Therefore, we presented an assistive robot, BlindPilot, which guides blind users to landmark objects using an intuitive handle. BlindPilot employs an RGB-D camera to detect the positions of target objects and uses LiDAR to build a 2D map of the surrounding area. On the basis of the sensing results, BlindPilot then generates a path to the object and guides the user safely. To evaluate our system, we also implemented a sound-based navigation system as a baseline system, and asked six blind participants to approach an empty chair using the two systems. We observed that BlindPilot enabled users to approach a chair faster with a greater feeling of security and less effort compared to the baseline system.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publication
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>
@@ -147,9 +152,9 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
@@ -166,7 +171,7 @@ last_updated: "2020.12.30"
                 </div>
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TISIHARA" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=GOQovh4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Tatsuya Ishihara — Google Scholar">
                       Tatsuya Ishihara
                     </a>
                   </div>
@@ -176,7 +181,7 @@ last_updated: "2020.12.30"
                 </div>
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                       Hironobu Takagi
                     </a>
                   </div>
@@ -198,7 +203,7 @@ last_updated: "2020.12.30"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TISIHARA" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=GOQovh4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Tatsuya Ishihara — Google Scholar">
                   Tatsuya Ishihara
                 </a>
               </div>
@@ -208,7 +213,7 @@ last_updated: "2020.12.30"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                   Hironobu Takagi
                 </a>
               </div>
@@ -229,7 +234,7 @@ last_updated: "2020.12.30"
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-3">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -240,9 +245,9 @@ last_updated: "2020.12.30"
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             This work was supported by JST ACCEL (JPMJAC1602) and JST-Mirai Program (JPMJMI19B2).

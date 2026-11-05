@@ -15,13 +15,13 @@ last_updated: "2020.12.30"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_CHI20Line">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./image/chi2020_logo.png" alt="" width=90 style="padding-top: 1.6rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
+              <h1 class="project_title semantic-heading">
                 Smartphone-Based Assistance for Blind People to Stand in Lines
-              </div>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Hironobu Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa
@@ -32,9 +32,10 @@ last_updated: "2020.12.30"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="Smartphone-assisted line following" aria-describedby="video-description-1" tabindex="0">
                 <source data-src="./movie/teaserMovie.mp4" type="video/mp4">
               </video>
+                <p id="video-description-1" class="visually-hidden" lang="en">Travelers stand in a queue with luggage. A participant holding a smartphone and a white cane moves forward as the people ahead advance, then stops to maintain their place in line.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
@@ -55,9 +56,10 @@ last_updated: "2020.12.30"
               </div>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1 ">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: -1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: -1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="Smartphone detection of the person ahead" aria-describedby="video-description-2" tabindex="0">
                 <source data-src="./movie/detection.mp4" type="video/mp4">
               </video>
+                <p id="video-description-2" class="visually-hidden" lang="en">An iPhone 11 Pro uses its RGB camera to detect the person ahead and its infrared depth sensor to estimate that person&#x27;s 3D position. The animation labels the sensors, person detection, and position sensing.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-xl-up">
               <div class="teaser">
@@ -68,9 +70,10 @@ last_updated: "2020.12.30"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="Vibration feedback for spacing in a line" aria-describedby="video-description-3" tabindex="0">
                 <source data-src="./movie/vibrationInterface.mp4" type="video/mp4">
               </video>
+                <p id="video-description-3" class="visually-hidden" lang="en">An animation compares gaps of less than and greater than 50 centimeters between a smartphone user and the person ahead. Vibration cues indicate when the gap has opened so the user can advance, and when to stop.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
@@ -89,38 +92,40 @@ last_updated: "2020.12.30"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/0Zk9jtZ-Mto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — Smartphone-Based Assistance for Blind People to Stand in Lines" src="https://www.youtube.com/embed/0Zk9jtZ-Mto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">A smartphone senses the person ahead and provides vibration feedback to help a blind traveler follow a moving line.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [1:16]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/d8ilmsqvAFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [1:16] — Smartphone-Based Assistance for Blind People to Stand in Lines" src="https://www.youtube.com/embed/d8ilmsqvAFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">A smartphone senses the person ahead and provides vibration feedback to help a blind traveler follow a moving line.</p>
             </div>
           </div>
 
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             We present a system to allow blind people to stand in line in public spaces by using an off-the-shelf smartphone only. The technologies to navigate blind pedestrians in public spaces are rapidly improving, but tasks which require to understand surrounding people's behavior are still difficult to assist. Standing in line at shops, stations, and other crowded places is one of such tasks. Therefore, we developed a system to detect and notify the distance to a person in front continuously by using a smartphone with an RGB camera and an infrared depth sensor. The system alerts three levels of distance via vibration patterns to allow users to start/stop moving forward to the right position at the right timing. To evaluate the effectiveness of the system, we performed a study with six blind people. We observed that the system enables blind participants to stand in line successfully, while also gaining more confidence.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publication
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Hironobu Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa.</span>
@@ -150,9 +155,9 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
@@ -169,7 +174,7 @@ last_updated: "2020.12.30"
                 </div>
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                       Hironobu Takagi
                     </a>
                   </div>
@@ -201,7 +206,7 @@ last_updated: "2020.12.30"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                   Hironobu Takagi
                 </a>
               </div>
@@ -232,7 +237,7 @@ last_updated: "2020.12.30"
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-3">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -244,17 +249,17 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Related Project
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="../CHI2021_LineChaser/CHI2021_LineChaser.html"><img loading="lazy" decoding="async" class="rounded" src="../CHI2021_LineChaser/image/CHI2021_LineChaser_thumb.png" style="opacity: 0.98; display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="../CHI2021_LineChaser/CHI2021_LineChaser.html" aria-label="LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line"><img loading="lazy" decoding="async" class="rounded" src="../CHI2021_LineChaser/image/CHI2021_LineChaser_thumb.png" style="opacity: 0.98; display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="../CHI2021_LineChaser/CHI2021_LineChaser.html">LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line
-              </a></div>
+              <h3 class="project_name semantic-heading"><a href="../CHI2021_LineChaser/CHI2021_LineChaser.html">LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line
+              </a></h3>
               <div class="project_author"> Masaki Kuribayashi*, Seita Kayukawa*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima</div>
               <div style="font-size: 0.75rem; padding-top:0.25rem">
                 (* - equal contribution)
@@ -266,20 +271,20 @@ last_updated: "2020.12.30"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Media
-          </div>
+          </h2>
           <div class="pub_en">
               <span>ITmedia NEWS.</span>
               <a target="_blank" rel="noopener noreferrer" href="https://www.itmedia.co.jp/news/articles/2007/07/news044.html" class="body_en_bold">
-                <span class="body_js">視覚障害者が街の行列に並べる支援技術　早大とIBMなどが開発</span></a>.
+                <span class="body_js" lang="ja">視覚障害者が街の行列に並べる支援技術　早大とIBMなどが開発</span></a>.
               <span>2020/7/7.</span>
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             This work was supported by JST ACCEL (JPMJAC1602) and JST-Mirai Program (JPMJMI19B2). We thank Tatsuya Ishihara, Masayuki Murata, Takashi Itoh, and Masashi Oikawa for their support.

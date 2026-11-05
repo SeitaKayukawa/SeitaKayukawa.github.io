@@ -15,13 +15,13 @@ last_updated: "2023.4.21"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_MuseumTour">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./image/CHI2023_logo.png" alt="" width=160 style="padding-top: 1.4rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
+              <h1 class="project_title semantic-heading">
                 Enhancing Blind Visitor's Autonomy in a Science Museum Using an Autonomous Navigation Robot
-              </div>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.
@@ -31,9 +31,10 @@ last_updated: "2023.4.21"
 
           <div class="row">
             <div class="col-sm-10 col-xl-8 offset-xxl-2 offset-xl-2 offset-sm-1 col-10 offset-1">
-              <video data-lazy-video preload="none" style="margin-top: 1rem; margin-bottom: 1rem; display: block; width: 100%; border-radius: .35rem;" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" style="margin-top: 1rem; margin-bottom: 1rem; display: block; width: 100%; height: auto; border-radius: .35rem;" autoplay="" loop="" playsinline="" aria-label="Autonomous museum tour demonstration" aria-describedby="video-description-1" tabindex="0">
                 <source data-src="./movie/MuseumTour_Teaser.mp4" type="video/mp4">
               </video>
+                <p id="video-description-1" class="visually-hidden" lang="en">A visitor holds the handle of a suitcase-shaped navigation robot in a science museum. The robot introduces the next exhibit, guides the visitor through the exhibition area, and passes nearby visitors.</p>
             </div>
           </div>
 
@@ -60,37 +61,39 @@ last_updated: "2023.4.21"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/hTC-JNmKHDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — Enhancing Blind Visitor&#x27;s Autonomy in a Science Museum Using an Autonomous Navigation Robot" src="https://www.youtube.com/embed/hTC-JNmKHDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">An autonomous suitcase-shaped robot guides blind visitors between exhibits in a science museum and supports independent exploration.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [1:16]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/MNMeqOE1Az0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [1:16] — Enhancing Blind Visitor&#x27;s Autonomy in a Science Museum Using an Autonomous Navigation Robot" src="https://www.youtube.com/embed/MNMeqOE1Az0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">An autonomous suitcase-shaped robot guides blind visitors between exhibits in a science museum and supports independent exploration.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             Enabling blind visitors to explore museum floors while feeling the facility's atmosphere and increasing their autonomy and enjoyment are imperative for giving them a high-quality museum experience. We designed a science museum exploration system for blind visitors using an autonomous navigation robot. Blind users can control the robot to navigate them toward desired exhibits while playing short audio descriptions along the route. They can also browse detailed explanations on their smartphones and call museum staff if interactive support is needed. Our real-world user study at a science museum during its opening hour revealed that blind participants could explore the museum safely and independently at their own pace. The study also showed that the sighted visitors who saw the participants walking with the robot accepted the assistive robot well. We finally conducted focus group sessions with the blind participants and discussed further requirements toward a more independent museum experience.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publication
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa.</span>
@@ -124,9 +127,9 @@ last_updated: "2023.4.21"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
               <div class="row">
@@ -200,7 +203,7 @@ last_updated: "2023.4.21"
             </div>
             <div class="col-6 col-sm-4 offset-sm-2 col-lg-3 offset-lg-0">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TISIHARA" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=GOQovh4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Tatsuya Ishihara — Google Scholar">
                   Tatsuya Ishihara
                 </a>
               </div>
@@ -210,7 +213,7 @@ last_updated: "2023.4.21"
             </div>
             <div class="col-6 col-sm-4 col-lg-3">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                   Hironobu Takagi
                 </a>
               </div>
@@ -233,7 +236,7 @@ last_updated: "2023.4.21"
             </div>
             <div class="col-12 col-sm-4 col-lg-3">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -249,16 +252,16 @@ last_updated: "2023.4.21"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Related Project
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="../AI-Suitcase-Acceptance/index.html"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/Acceptance_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="../AI-Suitcase-Acceptance/index.html" aria-label="How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/Acceptance_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="../AI-Suitcase-Acceptance/index.html">How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings</a></div>
+              <h3 class="project_name semantic-heading"><a href="../AI-Suitcase-Acceptance/index.html">How Users, Facility Managers, and Bystanders Perceive and Accept a Navigation Robot for Visually Impaired People in Public Buildings</a></h3>
               <div class="project_author">Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Akihiro Kosugi, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa</div>
               <div class="label conf project">IEEE RO-MAN 2022</div>
             </div>
@@ -266,26 +269,26 @@ last_updated: "2023.4.21"
           <div class="related_project_line"></div>
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://dl.acm.org/doi/10.1145/3308561.3353771"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_ASSETS.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://dl.acm.org/doi/10.1145/3308561.3353771" aria-label="CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People (ACM paper)"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_ASSETS.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a target="_blank" rel="noopener noreferrer" href="https://dl.acm.org/doi/10.1145/3308561.3353771">CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People</a></div>
+              <h3 class="project_name semantic-heading"><a target="_blank" rel="noopener noreferrer" href="https://dl.acm.org/doi/10.1145/3308561.3353771">CaBot: Designing and Evaluating an Autonomous Navigation Robot for Blind People</a></h3>
               <div class="project_author">João Guerreiro, Daisuke Sato, Saki Asakawa, Huixu Dong, Kris Kitani and Chieko Asakawa </div>
               <div class="label conf project">ASSETS 2019</div>
             </div>
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center " >
+          <h2 class="project_index semantic-heading" style="text-align:center " >
             Other Links
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
-              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CMU-cabot/cabot"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_Github.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CMU-cabot/cabot" aria-label="CaBot source code on GitHub"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_Github.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CMU-cabot/cabot">GitHub - CMU-cabot/cabot</a></div>
+              <h3 class="project_name semantic-heading"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CMU-cabot/cabot">GitHub - CMU-cabot/cabot</a></h3>
               <div class="project_author">Github repository of our navigation robot</div>
             </div>
 
@@ -293,10 +296,10 @@ last_updated: "2023.4.21"
           <div class="related_project_line"></div>
           <div class="row align-items-center">
             <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
-              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://www.cs.cmu.edu/~NavCog/cabot.html"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_CAL.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://www.cs.cmu.edu/~NavCog/cabot.html" aria-label="CaBot project at Carnegie Mellon University"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/CaBot_CAL.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a target="_blank" rel="noopener noreferrer" href="https://www.cs.cmu.edu/~NavCog/cabot.html">CAL - CaBot</a></div>
+              <h3 class="project_name semantic-heading"><a target="_blank" rel="noopener noreferrer" href="https://www.cs.cmu.edu/~NavCog/cabot.html">CAL - CaBot</a></h3>
               <div class="project_author">Cognitive Assistance Lab</div>
             </div>
           </div>
@@ -304,19 +307,19 @@ last_updated: "2023.4.21"
           <div class="row align-items-center">
 
             <div class="col-lg-3 col-sm-4 col-6 offset-sm-0 offset-3 pt-2 pb-2">
-              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://caamp.jp/"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/AI-Suitcase_consortium.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a target="_blank" rel="noopener noreferrer" href="https://caamp.jp/" aria-label="AI Suitcase consortium"><img loading="lazy" decoding="async" class="rounded" src="../AI-Suitcase-Acceptance/images/AI-Suitcase_consortium.png" style="display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-lg-9 col-sm-8 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a target="_blank" rel="noopener noreferrer" href="https://caamp.jp/">Consortium for Advanced Assistive Mobility Platform (CAAMP)</a></div>
+              <h3 class="project_name semantic-heading"><a target="_blank" rel="noopener noreferrer" href="https://caamp.jp/">Consortium for Advanced Assistive Mobility Platform (CAAMP)</a></h3>
               <div class="project_author">(in Japanese only) </div>
             </div>
           </div>
 
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             We thank the Miraikan - The National Museum of Emerging Science and Innovation, Science Communicators, and all study participants. This work was supported by JST-Mirai Program (JPMJMI19B2) and JSPS KAKENHI (JP20J23018).

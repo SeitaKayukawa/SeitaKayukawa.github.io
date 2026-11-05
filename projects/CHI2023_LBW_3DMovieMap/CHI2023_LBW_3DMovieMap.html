@@ -15,22 +15,22 @@ last_updated: "2023.4.22"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_3DMovieMap">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./images/CHI2023_logo.png" alt="" width=140 style="padding-top: 1.8rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
-                <div>
+              <h1 class="project_title semantic-heading">
+                <span style="display: block;">
                   3DMovieMap: An Interactive Route Viewer for Multi-Level Buildings
-                </div>
-              </div>
+                </span>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Keita Higuchi, Shigeo Morishima, and Ken Sakurada
               </div>
             </div>
           </div>
-          <img src="./images/3DMovieMap_teaser.png" alt="" width="100%" style="padding-top: 1.0rem; padding-bottom: 1.0rem;">
+          <img src="./images/3DMovieMap_teaser.png" alt="3DMovieMap workflow: 360-degree video of a building is processed with visual SLAM and floor detection. The user selects waypoints on floor maps, and the system calculates a route and generates a navigation movie with an adjustable camera view." width="100%" style="padding-top: 1.0rem; padding-bottom: 1.0rem;">
 
           <div class="row">
             <div class="col-12 offset-xl-1 hidden-xl-up">
@@ -47,19 +47,20 @@ last_updated: "2023.4.22"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             <a href="https://www.miraikan.jst.go.jp/en/research/AccessibilityLab/dataset360/" target="_blank" rel="noopener noreferrer">
               Miraikan 360-degree Video Dataset
             </a>
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-sm-10 col-xl-8 offset-xxl-2 offset-xl-2 offset-sm-1 col-10 offset-1">
-              <a href="https://www.miraikan.jst.go.jp/en/research/AccessibilityLab/dataset360/" target="_blank" rel="noopener noreferrer">
-                <video data-lazy-video preload="none" muted style="margin-top: 0rem; margin-bottom: 1rem; display: block; width: 100%; border-radius: .35rem;" autoplay="" loop="" playsinline="" muted="">
+
+                <video width="1280" height="640" data-lazy-video preload="none" muted style="margin-top: 0rem; margin-bottom: 1rem; display: block; width: 100%; height: auto; border-radius: .35rem;" autoplay="" loop="" playsinline="" aria-label="Miraikan 360-degree video dataset preview" aria-describedby="video-description-1" tabindex="0">
                   <source data-src="./movie/Dataset_thumbnail.mov" type="video/mp4">
                 </video>
-              </a>
+                <p id="video-description-1" class="visually-hidden" lang="en">An equirectangular 360-degree view moves along an upper-level walkway inside Miraikan. Windows, multiple floors, visitors below, and the large illuminated globe exhibit illustrate the panoramic building footage in the dataset.</p>
+
             </div>
           </div>
 
@@ -85,37 +86,39 @@ last_updated: "2023.4.22"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/TC3LLKgB6N8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — 3DMovieMap: An Interactive Route Viewer for Multi-Level Buildings" src="https://www.youtube.com/embed/TC3LLKgB6N8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">3DMovieMap turns 360-degree building footage into interactive navigation movies along routes selected on floor maps.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/5qKGLdJ5IvM " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video — 3DMovieMap: An Interactive Route Viewer for Multi-Level Buildings" src="https://www.youtube.com/embed/5qKGLdJ5IvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">3DMovieMap turns 360-degree building footage into interactive navigation movies along routes selected on floor maps.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             We present an interactive route viewer system, 3DMovieMap, which generates and shows navigation movies walking through multi-level buildings, such as a science museum, airport, and university building. Movie map systems can provide users with visual cues by synthesizing navigation movies based on their inputs of routes. However, existing systems are limited to flat areas such as city areas. We aim to extend Movie Map to generate navigation movies for multi-level buildings. The 3DMovieMap system generates a movie map from an equirectangular movie via a visual Simultaneous Localization and Mapping technology. Users select waypoints on the floor maps. 3DMovieMap calculates the shortest path that visits these points and generates a navigation movie along the route. We created four movie maps of buildings and asked two participants to use our system and provide feedback for further improvements. We will be releasing an open dataset of equirectangular movies captured in a science museum.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publications
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Keita Higuchi, Shigeo Morishima, and Ken Sakurada.</span>
@@ -149,9 +152,9 @@ last_updated: "2023.4.22"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-6 col-sm-4 offset-sm-2 col-lg-3 offset-lg-0">
@@ -200,9 +203,9 @@ last_updated: "2023.4.22"
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             We thank the Miraikan - The National Museum of Emerging Science and Innovation and Tokyo International Airport. This work was partially supported by JSPS KAKENHI (20H04217), JST-Mirai Program (JPMJMI19B2), and JSPS KAKENHI (JP20J23018).

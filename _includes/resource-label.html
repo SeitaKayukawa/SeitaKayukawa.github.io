@@ -9,7 +9,7 @@
   {% assign is_external = true %}
 {% endif %}
 {% if resource.href %}
-<a href="{% if has_scheme %}{{ resource.href }}{% else %}{{ resource.href | relative_url }}{% endif %}" class="label {{ resource.kind }}{% unless resource.kind == 'award' %} linked{% endunless %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+<a href="{% if has_scheme %}{{ resource.href }}{% else %}{{ resource.href | relative_url }}{% endif %}" class="label {{ resource.kind }}{% unless resource.kind == 'award' %} linked{% endunless %}"{% if include.publication_title %} aria-label="{{ resource.label | escape }}: {{ include.publication_title | escape }}"{% endif %}{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
 {% else %}
 <span class="label {{ resource.kind }}">
 {% endif %}

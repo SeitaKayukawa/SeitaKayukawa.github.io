@@ -15,13 +15,13 @@ last_updated: "2021.5.19"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_CHI2021LineChaser">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./image/CHI2021_logo.png" alt="" width=160 style="padding-top: 1.4rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
+              <h1 class="project_title semantic-heading">
                 LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line
-              </div>
+              </h1>
 
               <div class="project_authors">
                 Masaki Kuribayashi*, Seita Kayukawa*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima
@@ -35,9 +35,10 @@ last_updated: "2021.5.19"
 
           <div class="row">
             <div class="col-sm-10 col-xl-8 offset-xxl-2 offset-xl-2 offset-sm-1 col-10 offset-1">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="LineChaser demonstration" aria-describedby="video-description-1" tabindex="0">
                 <source data-src="./movie/teaser_movie.mp4" type="video/mp4">
               </video>
+                <p id="video-description-1" class="visually-hidden" lang="en">Participants use a smartphone while joining and moving through a queue with other travelers and luggage. The footage includes participants using white canes and a participant accompanied by a guide dog.</p>
             </div>
           </div>
 
@@ -62,9 +63,10 @@ last_updated: "2021.5.19"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-sm-10 col-12 offset-xl-0 offset-sm-1 offset-0">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="LineChaser phase 1: finding the end of a line" aria-describedby="video-description-2" tabindex="0">
                 <source data-src="./movie/system_overview_phase1.mp4" type="video/mp4">
               </video>
+                <p id="video-description-2" class="visually-hidden" lang="en">LineChaser first localizes the user and guides them to the queue entrance. The smartphone camera and depth sensor detect pedestrians and distinguish people waiting in the line from nearby bystanders to locate the end of the queue.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-xl-up">
               <div class="teaser" style="font-weight: 500">
@@ -75,18 +77,20 @@ last_updated: "2021.5.19"
               </div>
             </div>
             <div class="col-xl-6 hidden-lg-down">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="LineChaser phase 2: following line movement" aria-describedby="video-description-3" tabindex="0">
                 <source data-src="./movie/system_overview_phase2.mp4" type="video/mp4">
               </video>
+                <p id="video-description-3" class="visually-hidden" lang="en">LineChaser detects and tracks the last person in the queue. As that person advances and turns along the queue, the system guides the user to remain correctly positioned behind them.</p>
             </div>
           </div>
 
 
           <div class="row align-items-top">
             <div class="col-xl-6 col-sm-10 col-12 offset-xl-0 offset-sm-1 offset-0 hidden-xl-up">
-              <video data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; border-radius: .35rem" autoplay="" loop="" playsinline="" muted="">
+              <video width="1280" height="720" data-lazy-video preload="none" class="rounded" style="margin-top: 1.5rem; margin-bottom: 1.0rem; display: block; width: 100%; height: auto; border-radius: .35rem" autoplay="" loop="" playsinline="" aria-label="LineChaser phase 2: following line movement" aria-describedby="video-description-4" tabindex="0">
                 <source data-src="./movie/system_overview_phase2.mp4" type="video/mp4">
               </video>
+                <p id="video-description-4" class="visually-hidden" lang="en">LineChaser detects and tracks the last person in the queue. As that person advances and turns along the queue, the system guides the user to remain correctly positioned behind them.</p>
             </div>
             <div class="px-xl-4 col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1 hidden-lg-down">
               <div class="teaser" style="font-weight: 500">
@@ -112,50 +116,53 @@ last_updated: "2021.5.19"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/1fmMZKBcXH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line" src="https://www.youtube.com/embed/1fmMZKBcXH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">LineChaser uses smartphone sensing to find the end of a queue and guide a blind traveler as the line moves.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [1:16]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/VWw66TuN6xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [1:16] — LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line" src="https://www.youtube.com/embed/VWw66TuN6xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">LineChaser uses smartphone sensing to find the end of a queue and guide a blind traveler as the line moves.</p>
             </div>
           </div>
 
-          <div class="video_type" style="text-align:center">
+          <h2 class="video_type semantic-heading" style="text-align:center">
             Presentation Video
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-3 offset-lg-2 offset-1">
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/HJTam8_Yisw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Presentation Video — LineChaser: A Smartphone-Based Navigation System for Blind People to Stand in Line" src="https://www.youtube.com/embed/HJTam8_Yisw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-3"></iframe>
               </div>
+              <p id="embedded-video-description-3" class="visually-hidden" lang="en">LineChaser uses smartphone sensing to find the end of a queue and guide a blind traveler as the line moves.</p>
             </div>
           </div>
 
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             Standing in line is one of the most common social behaviors in public spaces but can be challenging for blind people. We propose an assistive system named LineChaser, which navigates a blind user to the end of a line and continuously reports the distance and direction to the last person in the line so that they can be followed. LineChaser uses the RGB camera in a smartphone to detect nearby pedestrians, and the built-in infrared depth sensor to estimate their position. Via pedestrian position estimations, LineChaser determines whether nearby pedestrians are standing in line, and uses audio and vibration signals to notify the user when they should start/stop moving forward. In this way, users can stay correctly positioned while maintaining social distance. We have conducted a usability study with 12 blind participants. LineChaser allowed blind participants to successfully navigate lines, significantly increasing their confidence in standing in lines.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publication
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Masaki Kuribayashi*, Seita Kayukawa*, Hironobu Takagi, Chieko Asakawa, and Shigeo Morishima (* - equal contribution).</span>
@@ -193,7 +200,7 @@ last_updated: "2021.5.19"
 
           <br>
 
-          <div class="pub_js">
+          <div class="pub_js" lang="ja">
             <div>
               <span>栗林雅希<span class="body_en">*</span>, 粥川青汰<span class="body_en">*</span>, 髙木啓伸, 浅川智恵子, 森島繁生 <span class="body_en">(* - equal contribution)</span>.</span>
               <span><span class="body_en">LineChaser: </span>視覚障碍者が列に並ぶためのスマートフォン型支援システム.</span>
@@ -222,9 +229,9 @@ last_updated: "2021.5.19"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-6 col-sm-4 offset-0 offset-sm-2 col-lg-3 offset-lg-3">
@@ -249,7 +256,7 @@ last_updated: "2021.5.19"
               <div class="row">
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                       Hironobu Takagi
                     </a>
                   </div>
@@ -259,7 +266,7 @@ last_updated: "2021.5.19"
                 </div>
                 <div class="col-lg-4">
                   <div class="author" style="text-align:center">
-                    <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                       Chieko Asakawa
                     </a>
                   </div>
@@ -281,7 +288,7 @@ last_updated: "2021.5.19"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=NAAdydEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Hironobu Takagi — Google Scholar">
                   Hironobu Takagi
                 </a>
               </div>
@@ -291,7 +298,7 @@ last_updated: "2021.5.19"
             </div>
             <div class="col-6 col-sm-4 hidden-lg-up">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -320,16 +327,16 @@ last_updated: "2021.5.19"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Related Project
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="../CHI2020_LBW_Line/CHI2020_LBW_Line.html"><img loading="lazy" decoding="async" class="rounded" src="../CHI2020_LBW_Line/image/chi20_line_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="../CHI2020_LBW_Line/CHI2020_LBW_Line.html" aria-label="Smartphone-Based Assistance for Blind People to Stand in Lines"><img loading="lazy" decoding="async" class="rounded" src="../CHI2020_LBW_Line/image/chi20_line_thumb.png" style="opacity: 0.95; display: block; margin: auto;" alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="../CHI2020_LBW_Line/CHI2020_LBW_Line.html">Smartphone-Based Assistance for Blind People to Stand in Lines</a></div>
+              <h3 class="project_name semantic-heading"><a href="../CHI2020_LBW_Line/CHI2020_LBW_Line.html">Smartphone-Based Assistance for Blind People to Stand in Lines</a></h3>
               <div class="project_author"> Seita Kayukawa, Hironobu Takagi, João Guerreiro, Shigeo Morishima, and Chieko Asakawa </div>
               <div class="label conf project">CHI EA 2020</div>
             </div>
@@ -337,9 +344,9 @@ last_updated: "2021.5.19"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Media
-          </div>
+          </h2>
           <div class="pub_en">
             <span>IBM Research Blog.</span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/blogs/research/2021/05/chi-linechaser-app/" class="body_en_bold">
@@ -349,14 +356,14 @@ last_updated: "2021.5.19"
           <div class="pub_en">
             <span>Webマガジン「AXIS」</span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.axismag.jp/posts/2021/05/371076.html" class="body_en_bold">
-              <span class="body_js">視覚障碍者が列に並ぶことができる
+              <span class="body_js" lang="ja">視覚障碍者が列に並ぶことができる
                 スマートフォン型支援システム「LineChaser」</span></a>.
             <span>2021/5/13.</span>
           </div>
           <div class="pub_en">
             <span>CNET Japan.</span>
             <a target="_blank" rel="noopener noreferrer" href="https://japan.cnet.com/article/35170520/" class="body_en_bold">
-              <span class="body_js">視覚障がい者もソーシャルディスタンスを保って列に並べる--IBMが支援アプリを開発</span></a>.
+              <span class="body_js" lang="ja">視覚障がい者もソーシャルディスタンスを保って列に並べる--IBMが支援アプリを開発</span></a>.
             <span>2021/5/11.</span>
           </div>
           <div class="pub_en">
@@ -428,14 +435,14 @@ last_updated: "2021.5.19"
           <div class="pub_en">
               <span>ITmedia NEWS.</span>
               <a target="_blank" rel="noopener noreferrer" href="https://www.itmedia.co.jp/news/articles/2007/07/news044.html" class="body_en_bold">
-                <span class="body_js">視覚障害者が街の行列に並べる支援技術　早大とIBMなどが開発</span></a>.
+                <span class="body_js" lang="ja">視覚障害者が街の行列に並べる支援技術　早大とIBMなどが開発</span></a>.
               <span>2020/7/7.</span>
           </div>
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             We would like to thank all participants who took part in our user study. We would also thank João Guerreiro, Asuka Hirata, and Yoshiki Kubotani for their support. This work was supported by JST-Mirai Program (JPMJMI19B2), JSPS KAKENHI (JP20J23018), and Grant-in-Aid for Young Scientists (Early Bird, Waseda Research Institute for Science and Engineering, BD070Z003100).

@@ -1,11 +1,11 @@
 {% assign publication = include.publication %}
-<div class="{% if publication.language == 'ja' %}pub_js{% else %}pub_en{% endif %}">
+<div class="{% if publication.language == 'ja' %}pub_js{% else %}pub_en{% endif %}" lang="{{ publication.language }}">
   <div>
     {{ publication.citation_html }}
   </div>
   <div>
     {% for resource in publication.resources %}
-      {% include resource-label.html resource=resource %}
+      {% include resource-label.html resource=resource publication_title=publication.title %}
     {% endfor %}
   </div>
 </div>

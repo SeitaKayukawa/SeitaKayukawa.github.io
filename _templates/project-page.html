@@ -17,15 +17,15 @@ last_updated: "YYYY.M.D"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="project_hero"{% if page.hero_image %} style="background-image: url('{{ page.hero_image | relative_url }}');"{% endif %}>
             <div class="project_hero_content">
-              <h1 class="project_title">{{ page.title | escape }}</h1>
+              <h1 class="project_title semantic-heading">{{ page.title | escape }}</h1>
               <div class="project_authors">{{ page.authors | escape }}</div>
             </div>
           </div>
 
-          <div class="project_index" style="text-align:center">Abstract</div>
+          <h2 class="project_index semantic-heading" style="text-align:center">Abstract</h2>
           <div class="abstract">
             Project abstract.
           </div>

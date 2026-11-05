@@ -27,15 +27,15 @@
 <div class="row align-items-center">
   <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
     <span class="project_teaser">
-      <a href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>
-        <img style="opacity: {{ project.image_opacity | default: 1 }}; display: block; margin: auto; width: 100%; height: auto;" class="rounded" src="{{ project.thumbnail | relative_url }}" alt="{{ card_title | escape }}" width="{{ project.thumbnail_dimensions[0] }}" height="{{ project.thumbnail_dimensions[1] }}" loading="lazy" decoding="async">
+      <a class="project-thumbnail-link" href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %} aria-label="{{ card_title | escape }} — {{ project.venue_label | escape }}">
+        <img style="opacity: {{ project.image_opacity | default: 1 }}; display: block; margin: auto; width: 100%; height: auto;" class="rounded" src="{{ project.thumbnail | relative_url }}" alt="" width="{{ project.thumbnail_dimensions[0] }}" height="{{ project.thumbnail_dimensions[1] }}" loading="lazy" decoding="async">
       </a>
     </span>
   </div>
   <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-    <div class="project_name">
+    <h3 class="project_name semantic-heading">
       <a href="{% if has_scheme %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ card_title | escape }}</a>
-    </div>
+    </h3>
     <div class="project_author">{{ card_authors | escape }}</div>
     {% if project.note %}<div class="project_note">{{ project.note | escape }}</div>{% endif %}
     {% if project.venue_wrapper %}

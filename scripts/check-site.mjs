@@ -86,6 +86,21 @@ for (const file of htmlFiles) {
   const duplicateIds = [...new Set(ids.filter((id, index) => ids.indexOf(id) !== index))];
   for (const id of duplicateIds) report(file, `contains duplicate id #${id}`);
 
+  if ((activeHtml.match(/<main\b/gi) || []).length !== 1) report(file, "must contain one main landmark");
+  if (!/<h1\b/i.test(activeHtml)) report(file, "is missing a level-one heading");
+  if (!/<main\b[^>]*\bid=["']main-content["']/i.test(activeHtml)) report(file, "is missing the skip-link target");
+  for (const match of activeHtml.matchAll(/\baria-(?:labelledby|describedby)=["']([^"']+)["']/gi)) {
+    for (const id of match[1].trim().split(/\s+/)) {
+      if (!ids.includes(id)) report(file, `missing accessible text reference #${id}`);
+    }
+  }
+
+  for (const match of activeHtml.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)) {
+    if (!/\bhref\s*=/i.test(match[1])) continue;
+    const named = /\baria-label(?:ledby)?=["'][^"']+["']/i.test(match[1]) || plainText(match[2]) || /\balt=["'][^"']+["']/i.test(match[2]);
+    if (!named) report(file, `contains an unnamed link: ${match[1].trim()}`);
+  }
+
   for (const match of activeHtml.matchAll(/<iframe\b([^>]*)>/gi)) {
     if (!/\btitle\s*=\s*["'][^"']+["']/i.test(match[1])) report(file, "contains an iframe without a title");
     if (!/\bloading\s*=\s*["']lazy["']/i.test(match[1])) report(file, "contains an iframe without lazy loading");
@@ -96,6 +111,10 @@ for (const file of htmlFiles) {
   }
 
   for (const match of activeHtml.matchAll(/<video\b([^>]*)>/gi)) {
+    if (!/\baria-label=["'][^"']+["']/i.test(match[1]) || !/\baria-describedby=["'][^"']+["']/i.test(match[1])) {
+      report(file, "contains a video without a name and text description");
+    }
+    if (!/\btabindex=["']0["']/i.test(match[1])) report(file, "contains a video outside the keyboard tab order");
     if (/\bautoplay(?:\s*=|\s|$)/i.test(match[1]) && !/\bdata-lazy-video(?:\s*=|\s|$)/i.test(match[1])) {
       report(file, "contains an autoplay video without lazy loading");
     }

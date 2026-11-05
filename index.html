@@ -17,21 +17,22 @@ mobile_profile_label: Home
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
-          <div class="row">
+        <main id="main-content" class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" tabindex="-1">
+          <h1 class="visually-hidden">Seita Kayukawa — Research profile</h1>
+          <div class="row" id="profile">
             <div class="col-lg-12 hidden-sm-down">
-              <h1 class="profile_tytle">
-                <span id="profile" class="anchor">
+              <h2 class="profile_tytle">
+                <span class="anchor">
                   Profile
                 </span>
-              </h1>
+              </h2>
             </div>
             <div class="col-lg-12 hidden-md-up pt-2">
-              <h1 class="profile_tytle">
+              <h2 class="profile_tytle">
                 <a>
                 Profile
                 </a>
-              </h1>
+              </h2>
             </div>
           </div>
 
@@ -42,17 +43,17 @@ mobile_profile_label: Home
             Project Lecturer at Keio University
           </div>
 
-          <div class="profile_index">
+          <h3 class="profile_index semantic-heading">
             Research Interest
-          </div>
+          </h3>
           <div class="profile_body">
               I am interested in broad area of <span class="body_en_bold">Human-Computer Interaction (HCI)</span>,
               and have been especially focused on <span class="body_en_bold">accessibility</span> and <span class="body_en_bold">video browsing interface</span>.
           </div>
 
-          <div class="profile_index">
+          <h3 class="profile_index semantic-heading">
             Short Biography
-          </div>
+          </h3>
 
           <div class="date">
             <div class="row">
@@ -61,7 +62,7 @@ mobile_profile_label: Home
               </div>
               <div class="col-12 col-lg-9 pt-1 pl-lg-0 pl-4">
                 <div class="date_contents">
-                  <span class="body_en_bold">Project Lecturer</span>, Accessibility and Mobility Lab., Keio University<br>
+                  <span class="body_en_bold">Project Lecturer</span>, <a href="https://ai-suitcase.org/en/index.html" target="_blank" rel="noopener noreferrer">Accessibility and Mobility Lab.</a>, Keio University<br>
                 </div>
               </div>
             </div>
@@ -109,100 +110,71 @@ mobile_profile_label: Home
             </div>
           </div>
 
-          <div class="date">
-            <div class="row">
-              <div class="col-12 col-lg-3 pt-1 ">
-                <span class="body_en_bold">Feb. 2019 - Mar. 2021</span>
-              </div>
-              <div class="col-12 col-lg-9 pt-1 pl-lg-0 pl-4">
-                <div class="date_contents">
-                  <span class="body_en_bold">Research Intern</span>, IBM Research - Tokyo<br>
-                  Advisor: <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TISIHARA" target="_blank" rel="noopener noreferrer">Tatsuya Ishihara</a>, <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-TAKAGIH" target="_blank" rel="noopener noreferrer">Hironobu Takagi</a>, and <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">Chieko Asakawa</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="date">
-            <div class="row">
-              <div class="col-12 col-lg-3 pt-1">
-                <span class="body_en_bold">May 2018 - Sept. 2018</span>
-              </div>
-              <div class="col-12 col-lg-9 pt-1 pl-lg-0 pl-4">
-                <div class="date_contents">
-                  <span class="body_en_bold">Research Intern</span>, <a href="http://www.cs.cmu.edu/~NavCog/" target="_blank" rel="noopener noreferrer">Cognitive Assistance Lab.</a>, Carnegie Mellon University<br>
-                  Advisor: <a href="https://keihigu.github.io" target="_blank" rel="noopener noreferrer">Keita Higuchi</a>, <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">Chieko Asakawa</a>, and <a href="http://www.cs.cmu.edu/~kkitani/" target="_blank" rel="noopener noreferrer">Kris Kitani</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <h1 class="index_en">
+          <h2 class="index_en">
             <span id="projects" class="anchor">
               Research Projects
             </span>
-          </h1>
+          </h2>
 {% assign project_publications = site.data.publications.full | concat: site.data.publications.selected | concat: site.data.publications.other_international | concat: site.data.publications.other_domestic %}
 {% for project in site.data.projects %}
   {% assign project_publication = project_publications | where: 'id', project.publication_id | first %}
   {% include project-card.html project=project publication=project_publication is_last=forloop.last %}
 {% endfor %}
 
-          <h1 class="index_en">
+          <h2 class="index_en">
             <span id="publication" class="anchor">
               Publications
             </span>
-          </h1>
+          </h2>
 
 
-          <div class="pub_type">
+          <h3 class="pub_type semantic-heading">
             Journal Papers and Conference Full Papers
-          </div>
+          </h3>
 {% for publication in site.data.publications.full %}
   {% include publication.html publication=publication %}
 {% endfor %}
 
-          <div class="pub_type">
+          <h3 class="pub_type semantic-heading">
             Conference Short Papers, Demonstrations, and Posters (Selected)
-          </div>
+          </h3>
 {% for publication in site.data.publications.selected %}
   {% include publication.html publication=publication %}
 {% endfor %}
 
           <a href="./other_publications.html">
-          <div class="pub_type" style="padding-bottom: 0.0rem;">
+          <h3 class="pub_type semantic-heading" style="padding-bottom: 0.0rem;">
             Other Publications
-          </div>
+          </h3>
           <div>
             (Short Papers, Demonstrations, Posters, and Domestic Publications)
           </div>
         </a>
 
-          <h1 class="index_en" style="margin-bottom: 1.0rem;">
+          <h2 class="index_en" style="margin-bottom: 1.0rem;">
             Ph.D. Thesis
-          </h1>
+          </h2>
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
               <span class="project_teaser">
-                <a href="./projects/PhD_Thesis/PhDThesis_kayukawa.pdf">
-                  <img style="opacity: 0.95; display: block; margin: auto;" class="rounded" src="./projects/PhD_Thesis/PhDThesis_thumbnail.png" alt="" width="100%" loading="lazy" decoding="async">
+                <a href="./projects/PhD_Thesis/PhDThesis_kayukawa.pdf" aria-label="Assisting Blind People’s Independence in Public Spaces" class="project-thumbnail-link">
+                  <img style="opacity: 0.95; display: block; margin: auto; width: 100%; height: auto;" class="rounded" src="./projects/PhD_Thesis/PhDThesis_thumbnail.png" alt="" width="833" loading="lazy" decoding="async" height="512">
                 </a>
               </span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name">
+              <h3 class="project_name semantic-heading">
                 <a href="./projects/PhD_Thesis/PhDThesis_kayukawa.pdf">
                   Assisting Blind People’s Independence in Public Spaces
                 </a>
-              </div>
+              </h3>
             </div>
           </div>
 
 
-          <h1 class="index_en" style="margin-bottom: 2.2rem;">
+          <h2 class="index_en" style="margin-bottom: 2.2rem;">
             Awards
-          </h1>
+          </h2>
 
           <div class="list" >
             <a href="https://assets25.sigaccess.org/schedule.html#tuesday-paper-session-6a-education-and-learning-1400-1530" target="_blank" rel="noopener noreferrer" class="body_en_bold">Honorable Mention Award</a>.
@@ -225,41 +197,41 @@ mobile_profile_label: Home
           <div class="list" >
             <a href="https://www.wiss.org/WISS2020/award.html" target="_blank" rel="noopener noreferrer" class="body_en_bold">Best Paper Award</a>.
             <span>JSSST The 28th Workshop on Interactive Systems and Software. Dec. 2020.</span>
-            <div>(<span class="body_en">WISS2020</span><span class="body_js">最優秀論文賞</span>)</div>
+            <div>(<span class="body_en">WISS2020</span><span class="body_js" lang="ja">最優秀論文賞</span>)</div>
           </div>
 
           <div class="list">
             <a href="https://www.ipsj.or.jp/award/yamasita2019-detail.html#hci" target="_blank" rel="noopener noreferrer" class="body_en_bold">IPSJ Yamashita SIG Research Award</a>.
-            Information Processing Society of Japan (IPSJ). Aug. 2019. <div>(<span class="body_js">山下記念研究賞</span>)</div>
+            Information Processing Society of Japan (IPSJ). Aug. 2019. <div>(<span class="body_js" lang="ja">山下記念研究賞</span>)</div>
           </div>
 
           <div class="list">
             <a href="https://www.waseda.jp/inst/student/assets/uploads/2020/09/2018_onoazusa.pdf" target="_blank" rel="noopener noreferrer" class="body_en_bold">Azusa Ono Memorial Award</a>.
             <span>Waseda University. Mar. 2019.</span>
-            <div>(2018<span class="body_js">年度小野梓記念学術賞</span>)</div>
+            <div>(2018<span class="body_js" lang="ja">年度小野梓記念学術賞</span>)</div>
           </div>
 
           <div class="list" >
-            <a href="http://www.interaction-ipsj.org/2019/award/" target="_blank" rel="noopener noreferrer" class="body_en_bold">Best Paper Award</a>.
+            <a href="https://www.interaction-ipsj.org/2019/award/" target="_blank" rel="noopener noreferrer" class="body_en_bold">Best Paper Award</a>.
             <span>IPSJ Interaction 2019. Mar. 2019.</span>
-            <div>(<span class="body_js">インタラクション</span><span class="body_en">2019</span><span class="body_js">最優秀論文賞</span>)</div>
+            <div>(<span class="body_js" lang="ja">インタラクション</span><span class="body_en">2019</span><span class="body_js" lang="ja">最優秀論文賞</span>)</div>
           </div>
 
 
-          <h1 class="index_en" style="margin-bottom: 2.2rem;">
+          <h2 class="index_en" style="margin-bottom: 2.2rem;">
             Fellowship and Scholarship
-          </h1>
+          </h2>
           <div class="list">
-            <a href="https://www.jsps.go.jp/english/e-pd/index.html" target="_blank" rel="noopener noreferrer" class="body_en_bold">Research Fellowship for Young Scientists (PD)</a>, Japan Society for the Promotion of Science (JSPS), Japan. Oct. 2022 - Mar. 2023. <div>(<span class="body_js">日本学術振興会 特別研究員</span>(PD))</div>
+            <a href="https://www.jsps.go.jp/english/e-pd/index.html" target="_blank" rel="noopener noreferrer" class="body_en_bold">Research Fellowship for Young Scientists (PD)</a>, Japan Society for the Promotion of Science (JSPS), Japan. Oct. 2022 - Mar. 2023. <div>(<span class="body_js" lang="ja">日本学術振興会 特別研究員</span>(PD))</div>
           </div>
           <div class="list">
             <a href="https://www.waseda.jp/fsci/wise/earlybird/program/" target="_blank" rel="noopener noreferrer" class="body_en_bold">Grant-in-Aid for Young Scientists (Early Bird)</a>, Waseda Research Institute for Science and Engineering, Japan. May 2020 - Mar. 2021.
           </div>
           <div class="list">
-            <a href="https://www.jsps.go.jp/english/e-pd/index.html" target="_blank" rel="noopener noreferrer" class="body_en_bold">Research Fellowship for Young Scientists (DC1)</a>, Japan Society for the Promotion of Science (JSPS), Japan. Apr. 2020 - Sept. 2022. <div>(<span class="body_js">日本学術振興会 特別研究員</span>(DC1))</div>
+            <a href="https://www.jsps.go.jp/english/e-pd/index.html" target="_blank" rel="noopener noreferrer" class="body_en_bold">Research Fellowship for Young Scientists (DC1)</a>, Japan Society for the Promotion of Science (JSPS), Japan. Apr. 2020 - Sept. 2022. <div>(<span class="body_js" lang="ja">日本学術振興会 特別研究員</span>(DC1))</div>
           </div>
           <div class="list">
-            <span class="body_en_bold">Scholarship for Outstanding Master Students</span>, Japan Student Services Organization (JASSO), Japan. Apr. 2018 - Mar. 2020. <div>(<span class="body_js">日本学生支援機構 奨学金 全額返済免除</span>)</div>
+            <span class="body_en_bold">Scholarship for Outstanding Master Students</span>, Japan Student Services Organization (JASSO), Japan. Apr. 2018 - Mar. 2020. <div>(<span class="body_js" lang="ja">日本学生支援機構 奨学金 全額返済免除</span>)</div>
           </div>
           <div class="list">
             <div><span class="body_en_bold">Visiting support from Super Global University (SGU)</span>, Japan. May 2018 - Sept. 2018.</div>
@@ -278,14 +250,14 @@ mobile_profile_label: Home
 
 
 
-          <h1 class="index_en">
+          <h2 class="index_en">
             Invited Talks
-          </h1>
+          </h2>
           <div class="list" style="padding-top: 1.0rem;">
             <div>
-              <span class="body_js"><strong>粥川青汰</strong></span>.
-              <span class="body_js"><strong>トップカンファレンス発表論文紹介セッション</strong><span class="body_en_bold">, BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.</span></span>
-              <span class="body_js"><i>インタラクティブシステムとソフトウェアに関するワークショップ（WISS）</i></span>.
+              <span class="body_js" lang="ja"><strong>粥川青汰</strong></span>.
+              <span class="body_js" lang="ja"><strong>トップカンファレンス発表論文紹介セッション</strong><span class="body_en_bold">, BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.</span></span>
+              <span class="body_js" lang="ja"><i>インタラクティブシステムとソフトウェアに関するワークショップ（WISS）</i></span>.
               <span class="body_en">Sept. 2019.</span>
             </div>
             <div>
@@ -302,9 +274,9 @@ mobile_profile_label: Home
 
           <div class="list">
             <div>
-              <span class="body_js"><strong>粥川青汰</strong></span>.
+              <span class="body_js" lang="ja"><strong>粥川青汰</strong></span>.
               <span class="body_en_bold">BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians.</span>
-              <span class="body_js"><i>CHI勉強会2019「今年CHIに論文が通った研究紹介」</i></span>.
+              <span class="body_js" lang="ja"><i>CHI勉強会2019「今年CHIに論文が通った研究紹介」</i></span>.
               <span>June 2019.</span>
             </div>
             <div>
@@ -320,11 +292,11 @@ mobile_profile_label: Home
           </div>
 
 
-          <h1 class="index_en">
+          <h2 class="index_en">
             Patent
-          </h1>
+          </h2>
           <div class="patent_list" style="padding-top: 1.0rem;">
-            <span class="body_js"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjc6Ky6rPX4AhUGt1YBHRu_D5kQFnoECAMQAQ&url=https%3A%2F%2Fwww.wrs.waseda.jp%2Fseeds%2Fja%2Fpatent-seed%2Ffiledownload%2Fid%2F2008%2Fkind%2F1&usg=AOvVaw1X70gFKlc04mEYPVqHqiDX" target="_blank" rel="noopener noreferrer">"表示制御装置、表示制御方法及び表示制御プログラム", 特開2019-192986</a>. Oct. 2019.</span>
+            <span class="body_js" lang="ja"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjc6Ky6rPX4AhUGt1YBHRu_D5kQFnoECAMQAQ&url=https%3A%2F%2Fwww.wrs.waseda.jp%2Fseeds%2Fja%2Fpatent-seed%2Ffiledownload%2Fid%2F2008%2Fkind%2F1&usg=AOvVaw1X70gFKlc04mEYPVqHqiDX" target="_blank" rel="noopener noreferrer">"表示制御装置、表示制御方法及び表示制御プログラム", 特開2019-192986</a>. Oct. 2019.</span>
           </div>
 
           <!-- <h1 class="index_en">
@@ -379,15 +351,15 @@ mobile_profile_label: Home
               <span>2019/5/17.</span>
           </div> -->
 
-          <h1 class="index_en" style="margin-top: 1.8rem;">
+          <h2 class="index_en" style="margin-top: 1.8rem;">
             Other Contents
-          </h1>
+          </h2>
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="https://github.com/Wotipati/Blind_Accessibility_Papers" target="_blank" rel="noopener noreferrer"><img class="rounded" style="opacity: 1; display: block; margin: auto;" src="./img/paper_list_thumb.png" alt="HCI papers about assistive technologies for visual impairments" width="100%" loading="lazy" decoding="async"></a></span>
+              <span class="project_teaser"><a href="https://github.com/Wotipati/Blind_Accessibility_Papers" target="_blank" rel="noopener noreferrer" aria-label="HCI Papers about Assistive Technologies for Visual Impairments." class="project-thumbnail-link"><img class="rounded" style="opacity: 1; display: block; margin: auto; width: 100%; height: auto;" src="./img/paper_list_thumb.png" alt="" width="853" loading="lazy" decoding="async" height="513"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="https://github.com/Wotipati/Blind_Accessibility_Papers" target="_blank" rel="noopener noreferrer">HCI Papers about Assistive Technologies for Visual Impairments. </a></div>
+              <h3 class="project_name semantic-heading"><a href="https://github.com/Wotipati/Blind_Accessibility_Papers" target="_blank" rel="noopener noreferrer">HCI Papers about Assistive Technologies for Visual Impairments. </a></h3>
               <div class="project_author">Github repository that lists publications (in CHI, UIST, ASSETS, TOCHI, TACCESS, and so on) about assistive technologies for visual impairments (over 500 papers!!).</div>
             </div>
           </div>
@@ -401,10 +373,10 @@ mobile_profile_label: Home
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="https://wotipati.github.io/blog/191204_advent/191204_advent.html"><img class="rounded" style="display: block; margin: auto; opacity: 1;" src="./blog/191204_advent/191204_thumb.png" alt="CMUで過ごした4ヶ月" width="100%" loading="lazy" decoding="async"></a></span>
+              <span class="project_teaser"><a href="https://wotipati.github.io/blog/191204_advent/191204_advent.html" aria-label="CMUで過ごした4ヶ月" class="project-thumbnail-link" lang="ja"><img class="rounded" style="display: block; margin: auto; opacity: 1; width: 100%; height: auto;" src="./blog/191204_advent/191204_thumb.png" alt="" width="1360" loading="lazy" decoding="async" height="818"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="https://wotipati.github.io/blog/191204_advent/191204_advent.html">CMU<strong>で過ごした</strong>4<strong>ヶ月</strong></a></div>
+              <h3 class="project_name semantic-heading"><a href="https://wotipati.github.io/blog/191204_advent/191204_advent.html">CMU<strong>で過ごした</strong>4<strong>ヶ月</strong></a></h3>
               <div class="project_author">
                 <a href="https://adventar.org/calendars/4026" target="_blank" rel="noopener noreferrer">研究留学 Advent Calendar 2019</a>. 2019/12/3.
               </div>
@@ -421,10 +393,10 @@ mobile_profile_label: Home
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText.html"><img class="rounded" style="display: block; margin: auto; opacity: 1;" src="./blog/200507_alternativeText/200507_thumb.png" alt="論文の図の代替テキストの書き方" width="100%" loading="lazy" decoding="async"></a></span>
+              <span class="project_teaser"><a href="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText.html" aria-label="論文の図の代替テキストの書き方" class="project-thumbnail-link" lang="ja"><img class="rounded" style="display: block; margin: auto; opacity: 1; width: 100%; height: auto;" src="./blog/200507_alternativeText/200507_thumb.png" alt="" width="1308" loading="lazy" decoding="async" height="786"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name"><a href="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText.html"><strong>論文の図の代替テキストの書き方</strong></a></div>
+              <h3 class="project_name semantic-heading"><a href="https://wotipati.github.io/blog/200507_alternativeText/200507_alternativeText.html"><strong>論文の図の代替テキストの書き方</strong></a></h3>
               <div class="project_author">
                 2020/5/6.
               </div>
@@ -465,9 +437,9 @@ mobile_profile_label: Home
            -->
 
 
-          <h1 id="contact" class="index_en" style="margin-top: 1.8rem;">
+          <h2 id="contact" class="index_en" style="margin-top: 1.8rem;">
             Contact
-          </h1>
+          </h2>
           <!-- <div class="contact_body" style="padding-top: 1.0rem; padding-bottom: 2.0rem;">
             Please reach me via email or social networking services rather than telephone when possible.
           </div> -->
@@ -476,10 +448,8 @@ mobile_profile_label: Home
             <a href="mailto:seita.kayukawa@keio.jp" class="contact linked"><span class="contact_icon"><img src="./img/icon/mail.png" alt="" height=22></span>seita.kayukawa[at]keio.jp</a>
           </div>
           <div class="contact_list">
-            <a href="https://www.facebook.com/profile.php?id=100009598263382" class="contact sns linked" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><span class="contact_icon"><img src="./img/icon/f_icon.png" alt="" height=22></span></a>
             <a href="https://x.com/_wotipati_" class="contact sns linked" target="_blank" rel="noopener noreferrer" aria-label="X profile"><span class="contact_icon"><img src="./img/icon/x_icon.svg" alt="" width="22" height="22"></span></a>
-            <a href="https://www.linkedin.com/in/seita-kayukawa-889254165/" class="contact sns linked" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><span class="contact_icon"><img src="./img/icon/linked_in_icon.png" alt="" height=22></span></a>
-            <a href="https://github.com/Wotipati" class="contact sns linked" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><span class="contact_icon"><img src="./img/icon/github_icon.png" alt="" height=22></span></a>
+            <a href="https://github.com/SeitaKayukawa" class="contact sns linked" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><span class="contact_icon"><img src="./img/icon/github_icon.png" alt="" height=22></span></a>
           </div>
           <!-- <br>
           <div class="contact_list">

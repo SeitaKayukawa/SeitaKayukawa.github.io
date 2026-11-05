@@ -1,0 +1,54 @@
+/* Load before the page stylesheet so existing visual classes keep their styling. */
+.semantic-heading {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  clear: none;
+}
+
+h2.profile_tytle {
+  padding-top: 0;
+}
+
+/* Preserve normalize.css's original h1 spacing after changing heading levels. */
+h2.profile_tytle,
+h2.index_en {
+  margin-top: .67em;
+}
+
+/* An empty-alt lazy image must still reserve the card's existing full width. */
+.project-thumbnail-link {
+  width: 100%;
+}
+
+.visually-hidden,
+.skip-link:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: .5rem;
+  left: .5rem;
+  z-index: 1100;
+  padding: .5rem 1rem;
+  background: white;
+}
+
+a:focus-visible,
+button:focus-visible,
+video:focus-visible,
+iframe:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}

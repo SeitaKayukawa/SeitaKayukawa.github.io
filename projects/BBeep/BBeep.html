@@ -15,13 +15,13 @@ last_updated: "2021.1.16"
       <div class="row">
         {% include navigation.html %}
 
-        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5">
+        <main class="col-lg-8 col-md-8 col-12 offset-md-3 pt-md-5" id="main-content" tabindex="-1">
           <div class="BackGround_BBeep">
             <div style="padding-left: 2rem; padding-bottom: 1.0rem">
               <img src="./images/chi19_logo.png" alt="" width=90 style="padding-top: 1.6rem; padding-bottom: 0.8rem;">
-              <div class="project_title">
+              <h1 class="project_title semantic-heading">
                 BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians
-              </div>
+              </h1>
 
               <div class="project_authors">
                 Seita Kayukawa, Keita Higuchi, João Guerreiro, Shigeo Morishima, Yoichi Sato, Kris Kitani, and Chieko Asakawa
@@ -33,14 +33,16 @@ last_updated: "2021.1.16"
 
           <div class="row">
             <div class="col-xl-10 offset-xl-1 hidden-lg-up">
-              <video data-lazy-video preload="none" style="padding-top: 1rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+              <video width="1520" height="658" data-lazy-video preload="none" style="padding-top: 1rem; display: block; width: 100%; height: auto;" autoplay="" loop="" playsinline="" aria-label="BBeep collision warning" aria-describedby="video-description-1" tabindex="0">
                 <source data-src="./movies/BBeep_Summary.mp4" type="video/mp4">
               </video>
+                <p id="video-description-1" class="visually-hidden" lang="en">Animation of a traveler using a suitcase-shaped robot and a white cane while an oncoming pedestrian looks at a phone. BBeep predicts their collision, emits warning beeps, and the pedestrian moves aside so they can pass.</p>
             </div>
             <div class="col-xl-10 offset-xl-1 col-12 hidden-md-down">
-              <video data-lazy-video preload="none" style="padding-top: 1rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+              <video width="1520" height="658" data-lazy-video preload="none" style="padding-top: 1rem; display: block; width: 100%; height: auto;" autoplay="" loop="" playsinline="" aria-label="BBeep collision warning" aria-describedby="video-description-2" tabindex="0">
                 <source data-src="./movies/BBeep_Summary.mp4" type="video/mp4">
               </video>
+                <p id="video-description-2" class="visually-hidden" lang="en">Animation of a traveler using a suitcase-shaped robot and a white cane while an oncoming pedestrian looks at a phone. BBeep predicts their collision, emits warning beeps, and the pedestrian moves aside so they can pass.</p>
             </div>
           </div>
 
@@ -61,9 +63,10 @@ last_updated: "2021.1.16"
 
           <div class="row align-items-center">
             <div class="col-xl-6 col-md-10 col-sm-10 offset-xl-0 offset-md-1 offset-1 col-10">
-              <video data-lazy-video preload="none" style="padding-top: 1.5rem; display: block; width: 100%" autoplay="" loop="" playsinline="" muted="">
+              <video width="1216" height="654" data-lazy-video preload="none" style="padding-top: 1.5rem; display: block; width: 100%; height: auto;" autoplay="" loop="" playsinline="" aria-label="BBeep warning timing" aria-describedby="video-description-3" tabindex="0">
                 <source data-src="./movies/SoundEmission.mp4" type="video/mp4">
               </video>
+                <p id="video-description-3" class="visually-hidden" lang="en">Animation showing how BBeep increases the urgency of its warning as a predicted collision approaches. A low-urgency warning is followed by a mid-urgency warning, and the robot stops when the pedestrian is too close.</p>
             </div>
             <div class="col-xl-6 col-12 hidden-lg-up">
               <div class="teaser">
@@ -81,37 +84,39 @@ last_updated: "2021.1.16"
 
           <div class="row">
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 30-sec Preview Video
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/rHDGhdTJZwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="30-sec Preview Video — BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians" src="https://www.youtube.com/embed/rHDGhdTJZwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-1"></iframe>
               </div>
+              <p id="embedded-video-description-1" class="visually-hidden" lang="en">BBeep warns nearby pedestrians about predicted collisions with a blind traveler using a suitcase-shaped robot.</p>
             </div>
             <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-2 offset-1">
-              <div class="video_type" style="text-align:center">
+              <h2 class="video_type semantic-heading" style="text-align:center">
                 Main Video [2:35]
-              </div>
+              </h2>
               <div class="video">
-                <iframe loading="lazy" title="Project video" src="https://www.youtube.com/embed/t82o0wxeB04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" title="Main Video [2:35] — BBeep: A Sonic Collision Avoidance System for Blind Travellers and Nearby Pedestrians" src="https://www.youtube.com/embed/t82o0wxeB04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-describedby="embedded-video-description-2"></iframe>
               </div>
+              <p id="embedded-video-description-2" class="visually-hidden" lang="en">BBeep warns nearby pedestrians about predicted collisions with a blind traveler using a suitcase-shaped robot.</p>
             </div>
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Abstract
-          </div>
+          </h2>
           <div class="abstract">
             We present an assistive suitcase system, BBeep, for supporting blind people when walking through crowded environments. BBeep uses pre-emptive sound notifications to help clear a path by alerting both the user and nearby pedestrians about the potential risk of collision. BBeep triggers notifications by tracking pedestrians, predicting their future position in real-time, and provides sound notifications only when it anticipates a future collision. We investigate how different types and timings of sound affect nearby pedestrian behavior. In our experiments, we found that sound emission timing has a significant impact on nearby pedestrian trajectories when compared to different sound types. Based on these findings, we performed a real-world user study at an international airport, where blind participants navigated with the suitcase in crowded areas. We observed that the proposed system significantly reduces the number of imminent collisions.
           </div>
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Publications
-          </div>
+          </h2>
           <div class="pub_en">
             <div>
               <span>Seita Kayukawa, Keita Higuchi, João Guerreiro, Shigeo Morishima, Yoichi Sato, Kris Kitani, and Chieko Asakawa.</span>
@@ -147,7 +152,7 @@ last_updated: "2021.1.16"
             </div>
           </div>
           <br>
-          <div class="pub_js">
+          <div class="pub_js" lang="ja">
             <div>
               <span>粥川青汰, 樋口啓太, João Guerreiro, 森島繁生, 佐藤洋一, Kris Kitani, 浅川智恵子.</span>
               <span>BBeep:歩行者との衝突予測に基づく警告音を用いた視覚障害者のための衝突回避支援システム.</span>
@@ -167,7 +172,7 @@ last_updated: "2021.1.16"
                 <span class="label_icon"><img src="../../img/icon/paper_pdf.png" alt="" height=14></span>
                 <span class="label_contents">Paper</span>
               </a>
-              <a href="http://www.interaction-ipsj.org/2019/award/" target="_blank" rel="noopener noreferrer" class="label award">
+              <a href="https://www.interaction-ipsj.org/2019/award/" target="_blank" rel="noopener noreferrer" class="label award">
                 <span class="label_icon"><img src="../../img/icon/trophy.png" alt="" height=13></span>
                 <span class="label_contents">Best Paper Award</span>
               </a>
@@ -176,9 +181,9 @@ last_updated: "2021.1.16"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Authors
-          </div>
+          </h2>
 
           <div class="row">
             <div class="col-lg-10 offset-lg-1 hidden-md-down">
@@ -283,7 +288,7 @@ last_updated: "2021.1.16"
             </div>
             <div class="col-12 col-sm-4 col-lg-3">
               <div class="author" style="text-align:center">
-                <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-chiekoa" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=IheNxE4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Chieko Asakawa — Google Scholar">
                   Chieko Asakawa
                 </a>
               </div>
@@ -298,20 +303,20 @@ last_updated: "2021.1.16"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Related Project
-          </div>
+          </h2>
 
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-4 col-sm-5 col-10 offset-sm-0 offset-1 pt-2 pb-2">
-              <span class="project_teaser"><a href="../IMWUT2020/IMWUT2020.html"><img loading="lazy" decoding="async" class="rounded" src="../IMWUT2020/image/IMWUT2020-Thumb.png" style="display: block; margin: auto;"alt="" width="90%"></a></span>
+              <span class="project_teaser"><a href="../IMWUT2020/IMWUT2020.html" aria-label="Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians"><img loading="lazy" decoding="async" class="rounded" src="../IMWUT2020/image/IMWUT2020-Thumb.png" style="display: block; margin: auto;"alt="" width="90%"></a></span>
             </div>
             <div class="col-xl-9 col-lg-8 col-sm-7 col-12 pt-2 pb-2 pl-sm-0 pr-sm-0 pl-4 pr-4">
-              <div class="project_name">
+              <h3 class="project_name semantic-heading">
                 <a href="../IMWUT2020/IMWUT2020.html">
                   Guiding Blind Pedestrians in Public Spaces by Understanding Walking Behavior of Nearby Pedestrians
                 </a>
-              </div>
+              </h3>
               <div class="project_author"> Seita Kayukawa, Tatsuya Ishihara, Hironobu Takagi, Shigeo Morishima, and Chieko Asakawa </div>
               <div class="label conf project">PACM IMWUT, Vol. 4, Issue 3, 2020</div>
             </div>
@@ -319,9 +324,9 @@ last_updated: "2021.1.16"
 
           <div class="project_line"></div>
 
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Media
-          </div>
+          </h2>
           <div class="pub_en">
               <span>Carnegie Mellon University (press release).</span>
               <a target="_blank" rel="noopener noreferrer" href="https://www.cmu.edu/news/stories/archives/2019/may/suitcase-helps-navigate-airports.html" class="body_en_bold">
@@ -331,13 +336,13 @@ last_updated: "2021.1.16"
           <div class="pub_en">
               <span>CNET.</span>
               <a target="_blank" rel="noopener noreferrer" href="https://japan.cnet.com/article/35137772/" class="body_en_bold">
-                <span class="body_js">空港で視覚障がい者の単独移動を支援するスーツケースとアプリ--前方に立つ人を通知<span></a>.
+                <span class="body_js" lang="ja">空港で視覚障がい者の単独移動を支援するスーツケースとアプリ--前方に立つ人を通知<span></a>.
               <span>2019/5/30.</span>
           </div>
           <div class="pub_en">
               <span>Seamless.</span>
               <a target="_blank" rel="noopener noreferrer" href="https://shiropen.com/seamless/bbeep?fbclid=IwAR3P6BgOnvp9yTixbBkBqWaK5TE_r03RJzwsLP3p-fFqZ5gr2qfvKuDmQ1s" class="body_en_bold">
-                <span class="body_js">早稲田大学など、混雑した環境における視覚障害者と歩行者の衝突回避支援スーツケース「BBeep」を発表。CNNを用いた衝突予測に基づき、周囲へ警告音を鳴らす</span></a>.
+                <span class="body_js" lang="ja">早稲田大学など、混雑した環境における視覚障害者と歩行者の衝突回避支援スーツケース「BBeep」を発表。CNNを用いた衝突予測に基づき、周囲へ警告音を鳴らす</span></a>.
               <span>2019/5/17.</span>
           </div>
           <div class="pub_en">
@@ -353,9 +358,9 @@ last_updated: "2021.1.16"
               <span>2019/5/10.</span>
           </div>
           <div class="pub_en">
-            <span class="body_js">ミルクフ ～見る工夫を見つける身につける～.</span>
+            <span class="body_js" lang="ja">ミルクフ ～見る工夫を見つける身につける～.</span>
             <a target="_blank" rel="noopener noreferrer" href="https://mirukufu.com/2019/10/18/bbeep/" class="body_en_bold">
-              <span class="body_js">若き才能が取り組むアクセシビリティ研究に、視覚障害者の立場ですべきこと</span></a>.
+              <span class="body_js" lang="ja">若き才能が取り組むアクセシビリティ研究に、視覚障害者の立場ですべきこと</span></a>.
             <span>2019/10/18.</span>
           </div>
           <div class="pub_en">
@@ -517,9 +522,9 @@ last_updated: "2021.1.16"
 
 
           <div class="project_line"></div>
-          <div class="project_index" style="text-align:center">
+          <h2 class="project_index semantic-heading" style="text-align:center">
             Acknowledgements
-          </div>
+          </h2>
 
           <div class="abstract">
             We thank the Allegheny County Airport Authority and all study participants. This work was sponsored in part by JST CREST (JPMJCR14E1), JST AIP-PRISM (JPMJCR18ZG), NSF NRI award (1637927), NIDILRR (90DPGE0003), Uptake (CMU ML for Social Good fund) and Shimizu Corporation.
